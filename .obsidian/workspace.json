@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Java.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b9906076ce86fad5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ee63430fd9cf316a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Java"
             }
           }
         ]
@@ -186,6 +170,13 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Java/JavaFx.md",
+    "Java.md",
+    "Java/JavaFx",
+    "Java",
+    "Java/JavaFx 如何實作像 Android's LinearLayout with layout_weigh.md",
+    "Java/JavaFx 常用寶典.md",
+    "CoderRD.md",
+    "create a link.md"
   ]
 }
