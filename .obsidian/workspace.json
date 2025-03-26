@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JavaFx/JavaFx 如何實作像 Android's LinearLayout with layout_weigh.md",
+                "file": "Java.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "JavaFx 如何實作像 Android's LinearLayout with layout_weigh"
+              "title": "Java"
             }
           }
         ]
@@ -168,14 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f517c64ad826f6c9",
+  "active": "42e261c8a424290d",
   "lastOpenFiles": [
     "Java/JavaFx/JavaFx 常用寶典.md",
+    "Java/JavaFx/JavaFx 如何實作像 Android's LinearLayout with layout_weigh.md",
     "Java.md",
     "Java/JavaFx.md",
     "Java/JavaFx",
     "Java",
-    "Java/JavaFx/JavaFx 如何實作像 Android's LinearLayout with layout_weigh.md",
     "CoderRD.md",
     "create a link.md"
   ]
