@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java.md",
+                "file": "TODO_MOVE/drive-cipher-toolkit.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "drive-cipher-toolkit"
             }
           }
         ]
@@ -170,13 +170,37 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "Java/JavaFx/JavaFx 常用寶典.md",
-    "Java/JavaFx/JavaFx 如何實作像 Android's LinearLayout with layout_weigh.md",
-    "Java.md",
-    "Java/JavaFx.md",
+    "TODO_MOVE/docker Volume 小筆記.md",
+    "TODO_MOVE/AWS.md",
+    "TODO_MOVE/Firebase Hosting Deploy by Github.md",
+    "TODO_MOVE/進階語音模式的影片與螢幕共享功能.md",
+    "TODO_MOVE/讓 AI 更貼近日常生活的新方式.md",
+    "TODO_MOVE/量化專有名詞.md",
+    "TODO_MOVE/Linux 啟動Script.md",
+    "TODO_MOVE/linux 計算目錄檔案大小.md",
+    "TODO_MOVE/kale-program-language-white-paper.md",
+    "TODO_MOVE/TODO Python 中的 NotImplemented 和 NotImpementedError.md",
+    "TODO_MOVE/sccs & module.md",
+    "TODO_MOVE/React 基本小筆記.md",
+    "TODO_MOVE/Flask 常用小筆記.md",
+    "TODO_MOVE/Q2 Meeting.md",
+    "TODO_MOVE/Load Blancer.md",
+    "TODO_MOVE/MOP-1725.md",
+    "TODO_MOVE/Morrison model schema Update.md",
+    "TODO_MOVE/Morrison Project Note.md",
+    "TODO_MOVE/Morrison Dev 可以導入_Impl.md",
+    "TODO_MOVE/Morrison Bussiness Logic.md",
+    "TODO_MOVE/IDE 快捷鍵.md",
+    "TODO_MOVE/Angular 常用筆記.md",
+    "TODO_MOVE/fix hnswlib issue.md",
+    "TODO_MOVE/Edi Deploy.md",
+    "TODO_MOVE/Data Lake.md",
+    "TODO_MOVE/調效能神器 JDK Mission Control (JMC)  連接設定 + 監控Docker下微服務的設定.md",
+    "move_java_files.sh",
+    "move_java_files.ps1",
+    "TODO_MOVE",
+    "Python",
     "Java/JavaFx",
-    "Java",
-    "CoderRD.md",
-    "create a link.md"
+    "Java"
   ]
 }
