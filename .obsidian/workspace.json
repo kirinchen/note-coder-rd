@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/TODO/n8n_mcp.md",
+                "file": "DevTools/Git/Git常用寶典.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "n8n_mcp"
+              "title": "Git常用寶典"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/TODO/n8n_mcp.md",
+                "file": "DevTools/Git/Git常用寶典.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of n8n_mcp"
+              "title": "Outline of Git常用寶典"
             }
           }
         ],
@@ -199,9 +199,13 @@
   },
   "active": "8859cad199c799ac",
   "lastOpenFiles": [
+    "JavaScript/React web 透過 github action 部屬到firebase hosting 架設網站.md",
+    "DevTools/Git/Git常用寶典.md",
+    "DevTools/Git",
+    "DevTools/Git/Git 如何記住帳號密碼.md",
+    "AI/TODO/n8n_mcp.md",
     "AI/TODO/Cursor + MCP.md",
     "n8n/n8n expression.md",
-    "AI/TODO/n8n_mcp.md",
     "AI/TODO",
     "Python/Python 基礎秘笈.md",
     "ffmpeg.md",
@@ -224,9 +228,6 @@
     "Database/Database.md",
     "README.md",
     "n8n",
-    "Others/Sycamore Current Task.md",
-    "System.md",
-    "Python/Flask 常用小筆記.md",
     "move_java_files.sh",
     "move_java_files.ps1",
     "TODO_MOVE",
