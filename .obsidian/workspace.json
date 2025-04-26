@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/TODO/影片生成.md",
-                "mode": "preview",
+                "file": "API/Google/YouTube API.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "影片生成"
+              "title": "YouTube API"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/TODO/影片生成.md",
+                "file": "API/Google/YouTube API.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 影片生成"
+              "title": "Outline of YouTube API"
             }
           }
         ],
@@ -211,11 +211,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f517c64ad826f6c9",
+  "active": "c40d38ad2ac63eb1",
   "lastOpenFiles": [
-    "AI/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
     "AI/TODO/影片生成.md",
+    "API/Google/YouTube API.md",
+    "API/Google",
+    "API",
     "AI/TODO/模型個人化特色化.md",
+    "AI/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
     "System.md",
     "DevTools/Git/Git常用寶典.md",
     "JavaScript/React web 透過 github action 部屬到firebase hosting 架設網站.md",
@@ -240,13 +243,11 @@
     "n8n/n8n.md",
     "Docker/Docker.md",
     "JavaScript/JavaScript.md",
-    "DevTools/DevTools.md",
     "n8n",
     "move_java_files.sh",
     "move_java_files.ps1",
     "TODO_MOVE",
     "Python",
-    "Java/JavaFx",
-    "Java"
+    "Java/JavaFx"
   ]
 }
