@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Google/YouTube API.md",
+                "file": "AI/tools/ElevenLabs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YouTube API"
+              "title": "ElevenLabs"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Google/YouTube API.md",
+                "file": "AI/tools/ElevenLabs.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of YouTube API"
+              "title": "Outline of ElevenLabs"
             }
           }
         ],
@@ -211,10 +211,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c40d38ad2ac63eb1",
+  "active": "f517c64ad826f6c9",
   "lastOpenFiles": [
-    "AI/TODO/影片生成.md",
     "API/Google/YouTube API.md",
+    "AI/tools/ElevenLabs.md",
+    "AI/tools",
+    "AI/TODO/影片生成.md",
     "API/Google",
     "API",
     "AI/TODO/模型個人化特色化.md",
@@ -242,12 +244,10 @@
     "Monitoring/Grafna 設定兩個Y-axis.md",
     "n8n/n8n.md",
     "Docker/Docker.md",
-    "JavaScript/JavaScript.md",
     "n8n",
     "move_java_files.sh",
     "move_java_files.ps1",
     "TODO_MOVE",
-    "Python",
-    "Java/JavaFx"
+    "Python"
   ]
 }
