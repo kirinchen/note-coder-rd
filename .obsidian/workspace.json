@@ -55,11 +55,13 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "API/Google/YouTube API.md",
                 "file": "Database/PostgreSQL PGVector 安裝與使用教學.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+              "title": "YouTube API"
               "title": "PostgreSQL PGVector 安裝與使用教學"
             }
           }
@@ -96,6 +98,7 @@
             "state": {
               "type": "search",
               "state": {
+                "query": "git",
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
@@ -185,12 +188,14 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "API/Google/YouTube API.md",
                 "file": "Database/PostgreSQL PGVector 安裝與使用教學.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+              "title": "Outline of YouTube API"
               "title": "Outline of PostgreSQL PGVector 安裝與使用教學"
             }
           }
@@ -213,9 +218,12 @@
   },
   "active": "c40d38ad2ac63eb1",
   "lastOpenFiles": [
+
     "API/Google/YouTube API.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
+
     "AI/TODO/影片生成.md",
+    "API/Google/YouTube API.md",
     "API/Google",
     "API",
     "AI/TODO/模型個人化特色化.md",
@@ -243,6 +251,7 @@
     "Monitoring/Grafna 設定兩個Y-axis.md",
     "n8n/n8n.md",
     "Docker/Docker.md",
+    "JavaScript/JavaScript.md",
     "n8n",
     "move_java_files.sh",
     "move_java_files.ps1",
