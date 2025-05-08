@@ -55,14 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Google/YouTube API.md",
-                "file": "Database/PostgreSQL PGVector 安裝與使用教學.md",
+                "file": "n8n/n8n expression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YouTube API"
-              "title": "PostgreSQL PGVector 安裝與使用教學"
+              "title": "n8n expression"
             }
           }
         ],
@@ -98,7 +96,6 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
@@ -188,15 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Google/YouTube API.md",
-                "file": "Database/PostgreSQL PGVector 安裝與使用教學.md",
+                "file": "n8n/n8n expression.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of YouTube API"
-              "title": "Outline of PostgreSQL PGVector 安裝與使用教學"
+              "title": "Outline of n8n expression"
             }
           }
         ],
@@ -218,16 +213,29 @@
   },
   "active": "c40d38ad2ac63eb1",
   "lastOpenFiles": [
-
-    "API/Google/YouTube API.md",
+    "Monitoring/InfluxDB 常用 Flux.md",
+    "AI/如何讓Gpt知道你的專案內容.md",
+    "AI/n8n 整合 HubSpot 透過AI背景調查並寫回至 HubSpot 欄位.md",
+    "AI/tools/ElevenLabs.md",
+    "AI/文章/ChatGPT 推出「專案」功能，讓對話更組織化！.md",
+    "AI/AI.md",
+    "Python/Python 繼承 _ reflaction 映射 相關.md",
+    "AI/文章",
+    "Python/Flask 常用小筆記.md",
+    "Python/Poetry Python 庫發布到 PyPI.md",
+    "n8n/n8n expression.md",
+    "n8n/n8n.md",
+    "Monitoring/InfluxDB Flux 封存.md",
+    "Java/JSON Jackson 常見設定.md",
+    "Java/Java JSON 不同的field 要轉成同一個DTO.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
-
-    "AI/TODO/影片生成.md",
+    "AI/tools",
     "API/Google/YouTube API.md",
+    "AI/TODO/影片生成.md",
     "API/Google",
     "API",
     "AI/TODO/模型個人化特色化.md",
-    "AI/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
+    "AI/文章/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
     "System.md",
     "DevTools/Git/Git常用寶典.md",
     "JavaScript/React web 透過 github action 部屬到firebase hosting 架設網站.md",
@@ -235,28 +243,11 @@
     "DevTools/Git/Git 如何記住帳號密碼.md",
     "AI/TODO/n8n_mcp.md",
     "AI/TODO/Cursor + MCP.md",
-    "n8n/n8n expression.md",
     "AI/TODO",
     "Python/Python 基礎秘笈.md",
-    "ffmpeg.md",
-    "Python/Python.md",
-    "Python/Python string 全攻略.md",
-    "Java/Java 常用方法.md",
-    "Java/Java.md",
-    "Java/Java lombok 好用annotation小筆記.md",
-    "Python/Python 加解密相關.md",
-    "Python Pandas 常用寶典.md",
-    "Python/Pytest 小技巧.md",
-    "Monitoring/h1 Grafana MongoDB 基本.md",
-    "Monitoring/Grafna 設定兩個Y-axis.md",
-    "n8n/n8n.md",
-    "Docker/Docker.md",
-    "JavaScript/JavaScript.md",
     "n8n",
     "move_java_files.sh",
     "move_java_files.ps1",
-    "TODO_MOVE",
-    "Python",
-    "Java/JavaFx"
+    "TODO_MOVE"
   ]
 }
