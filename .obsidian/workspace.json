@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUMMARY"
+              "title": "README"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQL",
+                "query": "CoderRD 簡介",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "README.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SUMMARY"
+              "title": "Outline of README"
             }
           }
         ],
@@ -213,6 +213,10 @@
   },
   "active": "c40d38ad2ac63eb1",
   "lastOpenFiles": [
+    "SUMMARY.md",
+    "README.md",
+    "Others.md",
+    "System.md",
     "Database/SQL 進階語法.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
     "n8n/n8n expression.md",
@@ -237,13 +241,9 @@
     "API",
     "AI/TODO/模型個人化特色化.md",
     "AI/文章/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
-    "System.md",
     "DevTools/Git/Git常用寶典.md",
     "JavaScript/React web 透過 github action 部屬到firebase hosting 架設網站.md",
     "DevTools/Git",
-    "DevTools/Git/Git 如何記住帳號密碼.md",
-    "AI/TODO/n8n_mcp.md",
-    "AI/TODO/Cursor + MCP.md",
     "AI/TODO",
     "n8n",
     "move_java_files.sh",
