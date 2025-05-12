@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Python/Python 基礎秘笈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Python 基礎秘笈"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Python/Python 基礎秘笈.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Python 基礎秘笈"
             }
           }
         ],
@@ -213,8 +213,10 @@
   },
   "active": "c40d38ad2ac63eb1",
   "lastOpenFiles": [
-    "SUMMARY.md",
+    "Python/python 常用指令.md",
+    "Python/Python 繼承 _ reflaction 映射 相關.md",
     "README.md",
+    "SUMMARY.md",
     "Others.md",
     "System.md",
     "Database/SQL 進階語法.md",
@@ -226,7 +228,6 @@
     "AI/tools/ElevenLabs.md",
     "AI/文章/ChatGPT 推出「專案」功能，讓對話更組織化！.md",
     "AI/AI.md",
-    "Python/Python 繼承 _ reflaction 映射 相關.md",
     "AI/文章",
     "Python/Flask 常用小筆記.md",
     "Python/Poetry Python 庫發布到 PyPI.md",
@@ -242,7 +243,6 @@
     "AI/TODO/模型個人化特色化.md",
     "AI/文章/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
     "DevTools/Git/Git常用寶典.md",
-    "JavaScript/React web 透過 github action 部屬到firebase hosting 架設網站.md",
     "DevTools/Git",
     "AI/TODO",
     "n8n",
