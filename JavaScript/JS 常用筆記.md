@@ -189,4 +189,46 @@ changeO();
 o.hasOwnProperty('prop');   // 回傳 false
 ```
 
+## String
+
+### empty check
+
+### 1. Simple length check:
+
+```javascript
+if (str && str.length > 0) {
+    // not empty
+}
+```
+
+### 2. Using trim() to avoid whitespace-only strings:
+
+```javascript
+if (str && str.trim().length > 0) {
+    // not empty, and not just whitespace
+}
+```
+
+### 3. Strict check:
+
+```javascript
+if (typeof str === 'string' && str.trim() !== '') {
+    // not empty and confirmed as string type
+}
+```
+
+### Recommended method (simple, safe):
+
+```javascript
+if (str && str.trim()) {
+    // string is not empty and not whitespace-only
+}
+```
+
+- `str &&` ensures `str` isn't `null` or `undefined`.
+    
+- `.trim()` removes whitespace before checking the content.
+    
+
+
 ###### tags: `javascript`
