@@ -13,58 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Python/用 jsonpickle 多型物件 JSON 序列化.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Java"
-            }
-          },
-          {
-            "id": "e02d2ae70ec310d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "n8n/n8n expression.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "n8n expression"
-            }
-          },
-          {
-            "id": "8859cad199c799ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System/Linux 啟動Script.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Linux 啟動Script"
-            }
-          },
-          {
-            "id": "c40d38ad2ac63eb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JS 常用筆記.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS 常用筆記"
+              "title": "用 jsonpickle 多型物件 JSON 序列化"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CoderRD 簡介",
+                "query": "python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JS 常用筆記.md",
+                "file": "Python/用 jsonpickle 多型物件 JSON 序列化.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JS 常用筆記"
+              "title": "Outline of 用 jsonpickle 多型物件 JSON 序列化"
             }
           }
         ],
@@ -211,10 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c40d38ad2ac63eb1",
+  "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "n8n/n8n expression.md",
+    "Java/用 @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
+    "Python/用 jsonpickle 多型物件 JSON 序列化.md",
+    "Java/Java.md",
     "Python/Python 基礎秘笈.md",
+    "Python/README.md",
+    "Python/Python string 全攻略.md",
+    "Java/Intellij 常用設定.md",
+    "Java/Intellij 如何快速切換成Eclipse的快捷鍵 keymap.md",
+    "Java/GraalVM 使用Polyglot 遇到 A language with id 'xxx' is not installed.md",
+    "DevTools/DevTools.md",
+    "n8n/n8n expression.md",
+    "API/Google/YouTube API.md",
+    "JavaScript/JS 常用筆記.md",
     "Python/python 常用指令.md",
     "Python/Python 繼承 _ reflaction 映射 相關.md",
     "README.md",
@@ -228,21 +196,10 @@
     "AI/n8n 整合 HubSpot 透過AI背景調查並寫回至 HubSpot 欄位.md",
     "AI/tools/ElevenLabs.md",
     "AI/文章/ChatGPT 推出「專案」功能，讓對話更組織化！.md",
-    "AI/AI.md",
     "AI/文章",
-    "Python/Flask 常用小筆記.md",
-    "Python/Poetry Python 庫發布到 PyPI.md",
-    "n8n/n8n.md",
-    "Monitoring/InfluxDB Flux 封存.md",
-    "Java/JSON Jackson 常見設定.md",
-    "Java/Java JSON 不同的field 要轉成同一個DTO.md",
     "AI/tools",
-    "API/Google/YouTube API.md",
-    "AI/TODO/影片生成.md",
     "API/Google",
     "API",
-    "AI/TODO/模型個人化特色化.md",
-    "AI/文章/ChatGPT 搜尋功能全面升級：免付費用戶也能使用！.md",
     "DevTools/Git",
     "AI/TODO",
     "n8n",
