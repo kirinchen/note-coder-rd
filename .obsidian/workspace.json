@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/用 jsonpickle 多型物件 JSON 序列化.md",
+                "file": "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "用 jsonpickle 多型物件 JSON 序列化"
+              "title": "用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/用 jsonpickle 多型物件 JSON 序列化.md",
+                "file": "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 用 jsonpickle 多型物件 JSON 序列化"
+              "title": "Outline of 用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證"
             }
           }
         ],
@@ -170,8 +170,16 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "Java/用 @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
+    "技術架構/前端如何讓OAuth後端又如何確認這個登入請求是真實可信？.md",
+    "技術架構/README.md",
+    "JavaScript/NodeJS/Untitled.md",
+    "技術架構",
+    "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
+    "JavaScript/NodeJS",
+    "DevTools/README.md",
+    "n8n/README.md",
     "Python/用 jsonpickle 多型物件 JSON 序列化.md",
+    "Java/用 @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Java/Java.md",
     "Python/Python 基礎秘笈.md",
     "Python/README.md",
@@ -190,12 +198,6 @@
     "Others.md",
     "System.md",
     "Database/SQL 進階語法.md",
-    "Database/PostgreSQL PGVector 安裝與使用教學.md",
-    "Monitoring/InfluxDB 常用 Flux.md",
-    "AI/如何讓Gpt知道你的專案內容.md",
-    "AI/n8n 整合 HubSpot 透過AI背景調查並寫回至 HubSpot 欄位.md",
-    "AI/tools/ElevenLabs.md",
-    "AI/文章/ChatGPT 推出「專案」功能，讓對話更組織化！.md",
     "AI/文章",
     "AI/tools",
     "API/Google",
@@ -203,8 +205,6 @@
     "DevTools/Git",
     "AI/TODO",
     "n8n",
-    "move_java_files.sh",
-    "move_java_files.ps1",
-    "TODO_MOVE"
+    "move_java_files.sh"
   ]
 }

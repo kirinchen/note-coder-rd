@@ -13,6 +13,7 @@
 - [Python Closure & Late Binding 陷阱](Python%20closure%20%26%20late%20binding%20陷阱.md)
 - [Python Thread & Async](Python%20Tread%20Async%20sync.md)
 - [Python 加解密相關](Python%20加解密相關.md)
+- [用 jsonpickle 多型物件 JSON 序列化](用%20jsonpickle%20多型物件%20JSON%20序列化.md)
 
 ## 框架與工具
 - [Flask 常用小筆記](Flask%20常用小筆記.md)
