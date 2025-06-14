@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
+                "file": "JavaScript/React/React 基本小筆記.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "React 基本小筆記"
+            }
+          },
+          {
+            "id": "92bb9fb19f00689d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證"
+              "title": "React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python",
+                "query": "jsonpickle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
+                "file": "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證"
+              "title": "Outline of React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯"
             }
           }
         ],
@@ -168,18 +183,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42e261c8a424290d",
+  "active": "92bb9fb19f00689d",
   "lastOpenFiles": [
+    "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
+    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
+    "JavaScript/React/React 基本小筆記.md",
+    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
+    "JavaScript/React",
+    "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
+    "Java/Java JSON 不同的field 要轉成同一個DTO.md",
+    "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
+    "n8n/n8n.md",
     "技術架構/前端如何讓OAuth後端又如何確認這個登入請求是真實可信？.md",
     "技術架構/README.md",
     "JavaScript/NodeJS/Untitled.md",
     "技術架構",
-    "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
     "JavaScript/NodeJS",
     "DevTools/README.md",
     "n8n/README.md",
-    "Python/用 jsonpickle 多型物件 JSON 序列化.md",
-    "Java/用 @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Java/Java.md",
     "Python/Python 基礎秘笈.md",
     "Python/README.md",
@@ -193,18 +214,12 @@
     "JavaScript/JS 常用筆記.md",
     "Python/python 常用指令.md",
     "Python/Python 繼承 _ reflaction 映射 相關.md",
-    "README.md",
-    "SUMMARY.md",
-    "Others.md",
-    "System.md",
-    "Database/SQL 進階語法.md",
     "AI/文章",
     "AI/tools",
     "API/Google",
     "API",
     "DevTools/Git",
     "AI/TODO",
-    "n8n",
-    "move_java_files.sh"
+    "n8n"
   ]
 }

@@ -20,7 +20,7 @@
 ## JSON 處理
 - [JSON Jackson 常見設定](JSON%20Jackson%20常見設定.md)
 - [Java JSON 不同的field 要轉成同一個DTO](Java%20JSON%20不同的field%20要轉成同一個DTO.md)
-- [用 @JsonTypeInfo 解決 Jackson 多型序列化](用%20@JsonTypeInfo%20解決%20Jackson%20多型%20\(Polymorphic\)%20序列化.md)
+- [用 @JsonTypeInfo 解決 Jackson 多型序列化](JSON%20@JsonTypeInfo%20解決%20Jackson%20多型%20(Polymorphic)%20序列化.md)
 - [Java Final field Class Json serializable](Java%20Final%20field%20Class%20Json%20serializable.md)
 
 ## Lombok 與程式碼優化
