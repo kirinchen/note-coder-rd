@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
+                "file": "SaaS&Tool&Software/Video/Creatomate.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯"
+              "title": "Creatomate"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jsonpickle",
+                "query": "git clone",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
+                "file": "SaaS&Tool&Software/Video/Creatomate.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯"
+              "title": "Outline of Creatomate"
             }
           }
         ],
@@ -185,41 +185,41 @@
   },
   "active": "92bb9fb19f00689d",
   "lastOpenFiles": [
-    "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
-    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
-    "JavaScript/React/React 基本小筆記.md",
-    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
-    "JavaScript/React",
-    "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
-    "Java/Java JSON 不同的field 要轉成同一個DTO.md",
-    "n8n/用 n8n Google 登入驗證流程 —— 前端 OAuth，後端驗證.md",
+    "SaaS&Tool&Software/Video/Shotstack.md",
+    "SaaS&Tool&Software/Video/Creatomate.md",
+    "Python/Python 基礎秘笈.md",
+    "SaaS&Tool&Software/Video",
+    "SaaS&Tool&Software",
+    "JavaScript/JS 常用筆記.md",
+    "n8n/n8n expression.md",
     "n8n/n8n.md",
-    "技術架構/前端如何讓OAuth後端又如何確認這個登入請求是真實可信？.md",
-    "技術架構/README.md",
-    "JavaScript/NodeJS/Untitled.md",
+    "Java/JSON Jackson 常見設定.md",
+    "API/Google/YouTube API.md",
+    "DevTools/Git/Git常用寶典.md",
+    "Python/README.md",
+    "Python/Python Tread Async sync.md",
+    "Python/Python string 全攻略.md",
+    "Python/python get aws ecs Specify task public ip_.md",
+    "Python/Python closure & late binding 陷阱.md",
+    "Python/Python 繼承 _ reflaction 映射 相關.md",
+    "Python/python 常用指令.md",
+    "Python/python 專案環境小筆記.md",
+    "Python/Python 專案打包zip部屬至 AWS Lambda.md",
+    "Python/Python 加解密相關.md",
+    "Python/Python __kwargs 的實測.md",
+    "Python/Python.md",
+    "Python/Pytest 小技巧.md",
+    "Python/Poetry Python 庫發布到 PyPI.md",
+    "Python/Pandas.md",
+    "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
+    "Python/Flask 常用小筆記.md",
+    "JavaScript/React",
     "技術架構",
     "JavaScript/NodeJS",
-    "DevTools/README.md",
-    "n8n/README.md",
-    "Java/Java.md",
-    "Python/Python 基礎秘笈.md",
-    "Python/README.md",
-    "Python/Python string 全攻略.md",
-    "Java/Intellij 常用設定.md",
-    "Java/Intellij 如何快速切換成Eclipse的快捷鍵 keymap.md",
-    "Java/GraalVM 使用Polyglot 遇到 A language with id 'xxx' is not installed.md",
-    "DevTools/DevTools.md",
-    "n8n/n8n expression.md",
-    "API/Google/YouTube API.md",
-    "JavaScript/JS 常用筆記.md",
-    "Python/python 常用指令.md",
-    "Python/Python 繼承 _ reflaction 映射 相關.md",
     "AI/文章",
     "AI/tools",
     "API/Google",
     "API",
-    "DevTools/Git",
-    "AI/TODO",
-    "n8n"
+    "DevTools/Git"
   ]
 }
