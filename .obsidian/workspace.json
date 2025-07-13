@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SaaS&Tool&Software/Video/Creatomate.md",
+                "file": "Python/Python 基礎秘笈.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Creatomate"
+              "title": "Python 基礎秘笈"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git clone",
+                "query": "Clipchamp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SaaS&Tool&Software/Video/Creatomate.md",
+                "file": "Python/Python 基礎秘笈.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Creatomate"
+              "title": "Outline of Python 基礎秘笈"
             }
           }
         ],
@@ -183,7 +184,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92bb9fb19f00689d",
+  "active": "85f3f8d6bec0e7a2",
   "lastOpenFiles": [
     "SaaS&Tool&Software/Video/Shotstack.md",
     "SaaS&Tool&Software/Video/Creatomate.md",
