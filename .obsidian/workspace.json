@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java Lombok 的 進階用法.md",
+                "file": "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Java Lombok 的 進階用法"
+              "title": "萊拉 (Lyra) AI 提示詞優化助手"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java Lombok 的 進階用法.md",
+                "file": "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Java Lombok 的 進階用法"
+              "title": "Outline of 萊拉 (Lyra) AI 提示詞優化助手"
             }
           }
         ],
@@ -185,13 +185,19 @@
   },
   "active": "92bb9fb19f00689d",
   "lastOpenFiles": [
-    "Java/Intellij 常用設定.md",
+    "AI/Untitled.md",
+    "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
+    "AI/Prompt",
     "Java/Java Lombok 的 進階用法.md",
+    "Java/Intellij 常用設定.md",
+    "System/Devops/Jenkins & Docker 伺服器磁碟空間異常佔用故障排除手冊.md",
+    "Docker/Docker 常用指令.md",
+    "System/Devops",
+    "Python/Poetry Python 庫發布到 PyPI.md",
     "Java/Java Stream.md",
     "Java/Java Reflection 常用方法.md",
     "SaaS&Tool&Software/Video/Creatomate.md",
     "SaaS&Tool&Software/Video/Shotstack.md",
-    "Docker/Docker 常用指令.md",
     "AI/tools/Google Vertex AI + Gemini.md",
     "Python/Python 基礎秘笈.md",
     "SaaS&Tool&Software/Video",
@@ -209,17 +215,11 @@
     "Python/Python closure & late binding 陷阱.md",
     "Python/Python 繼承 _ reflaction 映射 相關.md",
     "Python/python 常用指令.md",
-    "Python/python 專案環境小筆記.md",
-    "Python/Python 專案打包zip部屬至 AWS Lambda.md",
-    "Python/Python 加解密相關.md",
-    "Python/Python __kwargs 的實測.md",
     "JavaScript/React",
     "技術架構",
     "JavaScript/NodeJS",
     "AI/文章",
     "AI/tools",
-    "API/Google",
-    "API",
-    "DevTools/Git"
+    "API/Google"
   ]
 }
