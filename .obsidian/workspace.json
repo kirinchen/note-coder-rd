@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Devops/PostgreSQL  docker-compos backup and restore.md",
-                "mode": "preview",
+                "file": "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PostgreSQL  docker-compos backup and restore"
+              "title": "Capacitor 實戰教學 React 專案打包為 iOS Android App"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "postgr",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System/Devops/PostgreSQL  docker-compos backup and restore.md",
+                "file": "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PostgreSQL  docker-compos backup and restore"
+              "title": "Outline of Capacitor 實戰教學 React 專案打包為 iOS Android App"
             }
           }
         ],
@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,10 +184,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f517c64ad826f6c9",
+  "active": "92bb9fb19f00689d",
   "lastOpenFiles": [
-    "System/Devops/PostgreSQL docker-compos  更換版本到 pgvector.md",
     "System/Devops/PostgreSQL  docker-compos backup and restore.md",
+    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+    "System/Devops/PostgreSQL docker-compos  更換版本到 pgvector.md",
     "JavaScript/React/React 基本小筆記.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
     "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
@@ -214,7 +216,6 @@
     "JavaScript/JS 常用筆記.md",
     "n8n/n8n expression.md",
     "n8n/n8n.md",
-    "Java/JSON Jackson 常見設定.md",
     "JavaScript/React",
     "技術架構",
     "JavaScript/NodeJS",
