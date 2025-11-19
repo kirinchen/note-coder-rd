@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/React 基本小筆記.md",
+                "file": "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "React 基本小筆記"
+              "title": "React + Tailwind CSS 完整入門教學"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+                "file": "Java/Intellij 常用設定.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Capacitor 實戰教學 React 專案打包為 iOS Android App"
+              "title": "Intellij 常用設定"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "穿透",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+                "file": "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Capacitor 實戰教學 React 專案打包為 iOS Android App"
+              "title": "Outline of React + Tailwind CSS 完整入門教學"
             }
           }
         ],
@@ -184,16 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92bb9fb19f00689d",
+  "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "JavaScript/React/用 Vite 光速啟動你的 React 新專案.md",
-    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
     "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
+    "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
+    "JavaScript/React/TailwindCSS",
+    "JavaScript/React/React 基本小筆記.md",
     "Java/Intellij 常用設定.md",
+    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+    "JavaScript/React/用 Vite 光速啟動你的 React 新專案.md",
     "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
     "System/Devops/PostgreSQL  docker-compos backup and restore.md",
     "System/Devops/PostgreSQL docker-compos  更換版本到 pgvector.md",
-    "JavaScript/React/React 基本小筆記.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
     "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
     "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
@@ -215,12 +216,10 @@
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/JS 常用筆記.md",
-    "n8n/n8n expression.md",
     "JavaScript/React",
     "技術架構",
     "JavaScript/NodeJS",
     "AI/文章",
-    "AI/tools",
-    "API/Google"
+    "AI/tools"
   ]
 }
