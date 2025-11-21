@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
+                "file": "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "React + Tailwind CSS 完整入門教學"
+              "title": "《銅牌心法秘笈：執行動力 不敗戰士的潛規則》"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
+                "file": "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of React + Tailwind CSS 完整入門教學"
+              "title": "Outline of 《銅牌心法秘笈：執行動力 不敗戰士的潛規則》"
             }
           }
         ],
@@ -185,8 +185,11 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
+    "Impl實踐心法/《碎片時間的煉金術》.md",
+    "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
     "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
+    "Impl實踐心法",
+    "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
     "JavaScript/React/TailwindCSS",
     "JavaScript/React/React 基本小筆記.md",
     "Java/Intellij 常用設定.md",
@@ -212,14 +215,11 @@
     "SaaS&Tool&Software/Video/Creatomate.md",
     "SaaS&Tool&Software/Video/Shotstack.md",
     "AI/tools/Google Vertex AI + Gemini.md",
-    "Python/Python 基礎秘笈.md",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
-    "JavaScript/JS 常用筆記.md",
     "JavaScript/React",
     "技術架構",
     "JavaScript/NodeJS",
-    "AI/文章",
-    "AI/tools"
+    "AI/文章"
   ]
 }
