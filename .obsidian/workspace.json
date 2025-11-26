@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
-                "mode": "preview",
+                "file": "DevTools/Git/VS Code Git 超白話基本入門.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "《銅牌心法秘笈：執行動力 不敗戰士的潛規則》"
+              "title": "VS Code Git 超白話基本入門"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "穿透",
+                "query": "git常用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
+                "file": "DevTools/Git/VS Code Git 超白話基本入門.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 《銅牌心法秘笈：執行動力 不敗戰士的潛規則》"
+              "title": "Outline of VS Code Git 超白話基本入門"
             }
           }
         ],
@@ -185,8 +185,10 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "Impl實踐心法/《碎片時間的煉金術》.md",
+    "DevTools/Git/Git常用寶典.md",
+    "DevTools/Git/VS Code Git 超白話基本入門.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
+    "Impl實踐心法/《碎片時間的煉金術》.md",
     "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
     "Impl實踐心法",
     "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
@@ -213,8 +215,6 @@
     "Python/Poetry Python 庫發布到 PyPI.md",
     "Java/Java Reflection 常用方法.md",
     "SaaS&Tool&Software/Video/Creatomate.md",
-    "SaaS&Tool&Software/Video/Shotstack.md",
-    "AI/tools/Google Vertex AI + Gemini.md",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/React",
