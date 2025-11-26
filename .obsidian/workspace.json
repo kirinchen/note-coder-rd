@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "在 React 中優雅地顯示 List 與 Object (Dict)"
-            }
-          },
-          {
-            "id": "92bb9fb19f00689d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Intellij 常用設定.md",
+                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intellij 常用設定"
+              "title": "Hook 入門：useState 與 useEffect"
+            }
+          },
+          {
+            "id": "69f461e1d08fc9bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hook 入門：useState 與 useEffect"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
+                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 在 React 中優雅地顯示 List 與 Object (Dict)"
+              "title": "Outline of Hook 入門：useState 與 useEffect"
             }
           }
         ],
@@ -185,8 +185,10 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "DevTools/Git/VS Code Git 超白話基本入門.md",
+    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
+    "JavaScript/React/Hook 入門：useState 與 useEffect.md",
     "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
+    "DevTools/Git/VS Code Git 超白話基本入門.md",
     "DevTools/Git/Git常用寶典.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
     "Impl實踐心法/《碎片時間的煉金術》.md",
@@ -205,7 +207,6 @@
     "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
     "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
     "JavaScript/TypeScript 常用.md",
-    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
     "Java/Java Stream.md",
     "AI/Untitled.md",
     "AI/Prompt",
@@ -214,7 +215,6 @@
     "Docker/Docker 常用指令.md",
     "System/Devops",
     "Python/Poetry Python 庫發布到 PyPI.md",
-    "Java/Java Reflection 常用方法.md",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/React",
