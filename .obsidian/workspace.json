@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevTools/Git/VS Code Git 超白話基本入門.md",
+                "file": "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "VS Code Git 超白話基本入門"
+              "title": "在 React 中優雅地顯示 List 與 Object (Dict)"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevTools/Git/VS Code Git 超白話基本入門.md",
+                "file": "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VS Code Git 超白話基本入門"
+              "title": "Outline of 在 React 中優雅地顯示 List 與 Object (Dict)"
             }
           }
         ],
@@ -185,8 +185,9 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "DevTools/Git/Git常用寶典.md",
     "DevTools/Git/VS Code Git 超白話基本入門.md",
+    "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
+    "DevTools/Git/Git常用寶典.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
     "Impl實踐心法/《碎片時間的煉金術》.md",
     "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
@@ -214,7 +215,6 @@
     "System/Devops",
     "Python/Poetry Python 庫發布到 PyPI.md",
     "Java/Java Reflection 常用方法.md",
-    "SaaS&Tool&Software/Video/Creatomate.md",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/React",
