@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
-                "mode": "source",
+                "file": "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hook 入門：useState 與 useEffect"
+              "title": "Git & GitHub 快速上手懶人包"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
+                "file": "DevTools/Git/Git & GitHub 快速上手懶人包.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hook 入門：useState 與 useEffect"
+              "title": "Outline of Git & GitHub 快速上手懶人包"
             }
           }
         ],
@@ -183,12 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42e261c8a424290d",
+  "active": "69f461e1d08fc9bd",
   "lastOpenFiles": [
-    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
-    "JavaScript/React/Hook 入門：useState 與 useEffect.md",
-    "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
     "DevTools/Git/VS Code Git 超白話基本入門.md",
+    "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+    "JavaScript/React/Hook 入門：useState 與 useEffect.md",
+    "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
+    "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
     "DevTools/Git/Git常用寶典.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
     "Impl實踐心法/《碎片時間的煉金術》.md",
@@ -214,7 +216,6 @@
     "System/Devops/Jenkins & Docker 伺服器磁碟空間異常佔用故障排除手冊.md",
     "Docker/Docker 常用指令.md",
     "System/Devops",
-    "Python/Poetry Python 庫發布到 PyPI.md",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/React",
