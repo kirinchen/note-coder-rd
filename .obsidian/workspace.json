@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
+                "file": "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hook 入門：useState 與 useEffect"
+              "title": "How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Git & GitHub 快速上手懶人包"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git常用",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 265.5
   },
   "right": {
     "id": "a5c03ad6ae2af8a6",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+                "file": "JavaScript/React/Hook 入門：useState 與 useEffect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git & GitHub 快速上手懶人包"
+              "title": "Outline of Hook 入門：useState 與 useEffect"
             }
           }
         ],
@@ -171,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,37 +184,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69f461e1d08fc9bd",
+  "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "DevTools/Git/VS Code Git 超白話基本入門.md",
-    "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+    "JavaScript/README.md",
+    "JavaScript/JavaScript.md",
+    "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
+    "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
+    "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
+    "JavaScript/React/React 基本小筆記.md",
+    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
+    "JavaScript/React/用 Vite 光速啟動你的 React 新專案.md",
+    "JavaScript/使用 TypeScript 在runtime list 所有declare的classes 並且實例化.md",
+    "Java/JCenter 真的掰了 要換成別的 repositories.md",
+    "Docker/Spring Boot +Spring Data + MongoDB(docker base) 實作筆記.md",
     "JavaScript/React/Hook 入門：useState 與 useEffect.md",
+    "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+    "DevTools/DevTools.md",
+    "Untitled.md",
+    "DevTools/Git/VS Code Git 超白話基本入門.md",
     "JavaScript/React/React 狀態管理的另一種思路：用 Singleton Service 優雅解耦 UI 與資料邏輯.md",
     "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
     "DevTools/Git/Git常用寶典.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
     "Impl實踐心法/《碎片時間的煉金術》.md",
-    "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
     "Impl實踐心法",
-    "JavaScript/React/React 從 0 到 1重點開發環境與 VSCode 偵錯教學.md",
     "JavaScript/React/TailwindCSS",
-    "JavaScript/React/React 基本小筆記.md",
     "Java/Intellij 常用設定.md",
-    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
-    "JavaScript/React/用 Vite 光速啟動你的 React 新專案.md",
     "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
     "System/Devops/PostgreSQL  docker-compos backup and restore.md",
     "System/Devops/PostgreSQL docker-compos  更換版本到 pgvector.md",
     "Database/PostgreSQL PGVector 安裝與使用教學.md",
-    "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
-    "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
-    "JavaScript/TypeScript 常用.md",
-    "Java/Java Stream.md",
-    "AI/Untitled.md",
     "AI/Prompt",
-    "Java/Java Lombok 的 進階用法.md",
-    "System/Devops/Jenkins & Docker 伺服器磁碟空間異常佔用故障排除手冊.md",
-    "Docker/Docker 常用指令.md",
     "System/Devops",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",

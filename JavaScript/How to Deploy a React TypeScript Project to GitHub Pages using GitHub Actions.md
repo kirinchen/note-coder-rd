@@ -1,127 +1,118 @@
 ---
 title: How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions
-tags: [devops, React, TypeScript, git]
+tags: [devops, React, TypeScript, git, ci/cd]
 
 ---
-
-
 
 ### How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions
 
 #### Introduction
 
-Deploying a React TypeScript project to GitHub Pages efficiently automates the process, ensuring your project is consistent with the latest changes in your repository. This tutorial will guide you through setting up GitHub Actions to automate the deployment of your React TypeScript project to GitHub Pages.
+Deploying a React TypeScript project to GitHub Pages manually can be tedious. By using GitHub Actions, we can automate this process to ensure your live site always reflects the latest changes in your main branch. 
+
+**Note:** This tutorial uses the modern `GITHUB_TOKEN` method, which is more secure than managing personal access tokens manually.
 
 #### Prerequisites
 
-1. **GitHub Account**: A GitHub account and a repository containing your React TypeScript project.
-2. **Node.js and npm**: Ensure Node.js and npm are installed to handle project dependencies.
+1.  **GitHub Account**: A GitHub account and a repository containing your React TypeScript project.
+2.  **Node.js and npm**: Ensure Node.js and npm are installed.
+3.  **Project Type**: This guide supports both Vite (recommended) and Create React App.
 
 #### Step-by-Step Guide
 
 **Step 1: Prepare Your React Project**
 
-Make sure your React project uses TypeScript and is configured to build correctly. In your `package.json`, set the `homepage` field to the hosting subpath:
+You need to tell your router and bundler where the app is hosted.
 
-```json
-"homepage": "./",
-```
+1.  **Update `package.json`**:
+    Add the `homepage` field. This ensures assets are linked correctly relative to your repository URL.
 
-**Step 2: Set Up GitHub Actions**
+    ```json
+    // Replace 'username' and 'repo-name' with your actual details
+    "homepage": "[https://username.github.io/repo-name](https://username.github.io/repo-name)",
+    ```
 
-1. **Generate a Commit Token**:
-   - Go to `Settings` > `Developer Settings` > `Personal access tokens`.
-   - Select `Generate new token`.
-   - Choose the appropriate permissions for the token, such as repo access.
-   - Note down the generated token.
+2.  **For Vite Users (Important)**:
+    If you are using Vite, you must also set the `base` in `vite.config.ts` to match your repository name:
 
-![1](https://hackmd.io/_uploads/S1mqRiMbC.png)
-![2](https://hackmd.io/_uploads/B17qAofZR.png)
+    ```typescript
+    // vite.config.ts
+    export default defineConfig({
+      base: '/your-repo-name/', // e.g. '/my-react-app/'
+      plugins: [react()],
+    })
+    ```
 
+**Step 2: Configure the Workflow**
 
-2. **Add the Commit Token as a Secret**:
-   - Navigate to your repository's settings.
-   - Go to `Secrets and variables` > `Repository secrets` > `New repository secret`.
-   - Name: `COMMIT_TOKEN`
-   - Secret: Paste the generated token.
-![3](https://hackmd.io/_uploads/Skpo0sfZA.png)
+We no longer need to generate manual secrets. We will use the built-in `GITHUB_TOKEN`.
 
-3. **Create a Workflow File**:
-   - In your repository on GitHub, go to the `Actions` tab and click on "New workflow".
-   - Click on "set up a workflow yourself" to create a new YAML file in `.github/workflows`.
+1.  **Create a Workflow File**:
+    - In your repository, navigate to the **Actions** tab.
+    - Click **New workflow** -> **set up a workflow yourself**.
+    - Name the file `.github/workflows/deploy.yml`.
 
-4. **Configure the Workflow**:
-   - Replace the content of the YAML file with the following:
+2.  **Paste the Configuration**:
+    Copy the following modern YAML configuration. This script uses the community-standard `peaceiris/actions-gh-pages` and sets appropriate permissions.
 
-   ```yaml
-   name: deploy gh-pages
+    ```yaml
+    name: Deploy to GitHub Pages
 
-   on:
-     push:
-       branches:
-         - main
+    on:
+      push:
+        branches:
+          - main
 
-   jobs:
-     build:
-       name: Build and deploy gh-pages
-       env:
-         MY_SECRET: ${{ secrets.COMMIT_TOKEN }}
-         USER_NAME: githubaction
-         USER_EMAIL: githubaction@github.com
-         PUBLISH_DIR: ./build
+    # Grant GITHUB_TOKEN the permission to write to the repository
+    permissions:
+      contents: write
 
-       runs-on: ubuntu-latest
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+        
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v4
 
-       strategy:
-         matrix:
-           node-version: [18.x]
+          - name: Setup Node
+            uses: actions/setup-node@v4
+            with:
+              node-version: '20' # Use a modern LTS version
+              cache: 'npm'
 
-       steps:
-       - uses: actions/checkout@v1
+          - name: Install dependencies
+            run: npm ci
 
-       - name: Use Node.js ${{ matrix.node-version }}
-         uses: actions/setup-node@v1
-         with:
-           node-version: ${{ matrix.node-version }}
+          - name: Build project
+            run: npm run build
 
-       - name: npm install
-         run: npm install
-
-       - name: npm run build
-         run: npm run build
-
-       - name: Commit files
-         run: |
-           cd $PUBLISH_DIR
-           git init
-           git config --local user.name $USER_NAME
-           git config --local user.email $USER_EMAIL
-           git status
-           git remote add origin https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git
-           git checkout -b gh-pages
-           git add --all
-           git commit -m "deploy to Github pages"
-           git push origin gh-pages -f
-           echo 🤘 deploy gh-pages complete to $GITHUB_REPOSITORY.git.
-   ```
-
-This workflow will trigger on pushes to the main branch, install dependencies, build your project, commit the build artifacts to the `gh-pages` branch, and then push to GitHub Pages using the provided commit token for authentication.
+          - name: Deploy
+            uses: peaceiris/actions-gh-pages@v4
+            with:
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              # If using Vite, use './dist'. If using CRA, use './build'
+              publish_dir: ./dist 
+    ```
 
 **Step 3: Enable GitHub Pages**
 
-- Access your repository's settings.
-- Locate the “Pages” section.
-- Select the `gh-pages` branch and `/ (root)` folder as your source.
-- Confirm your settings.
+Once the action runs successfully for the first time, a `gh-pages` branch will be created automatically. Now you need to tell GitHub to serve your site from there.
+
+1.  Go to your repository **Settings**.
+2.  Click on **Pages** in the left sidebar.
+3.  Under **Build and deployment** > **Source**, ensure "Deploy from a branch" is selected.
+4.  Under **Branch**, select `gh-pages` and ensuring the folder is `/(root)`.
+5.  Click **Save**.
 
 **Conclusion**
 
-Following these steps will set up your React TypeScript project for automatic deployment to GitHub Pages upon any commits to your main branch. This configuration streamlines your update process and ensures a smooth and efficient deployment pipeline.
+Your automation pipeline is now complete! 
 
-Every time you commit, it will trigger the action as shown:
+1.  Push code to the `main` branch.
+2.  GitHub Actions will automatically install dependencies, build your React app, and deploy it securely without requiring manual API keys.
+3.  Your changes will be live in a few minutes.
 
-![4](https://hackmd.io/_uploads/HkYORjz-0.png)
+You can monitor the deployment status in the **Actions** tab:
 
-
-Remember to replace the `username` and `repo-name` with your actual GitHub username and repository name in the `package.json` and adjust the workflow YAML as needed.
-
+![Action Status](https://hackmd.io/_uploads/HkYORjz-0.png)
