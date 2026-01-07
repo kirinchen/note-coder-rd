@@ -124,6 +124,9 @@ qobj = json.loads(jstr)
 ### dict to JSON String
 ```python=
 jstr = json.dumps(dictObj)
+
+# or pretty fromate
+jstr = json.dumps(dictObj, indent=4)
 ```
 
 ## escape unescape
