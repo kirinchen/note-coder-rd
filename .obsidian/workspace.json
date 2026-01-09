@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python 基礎秘笈.md",
-                "mode": "source",
+                "file": "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Python 基礎秘笈"
+              "title": "GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 309.5
   },
   "right": {
     "id": "a5c03ad6ae2af8a6",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python 基礎秘笈.md",
+                "file": "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python 基礎秘笈"
+              "title": "Outline of GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
             }
           }
         ],
@@ -171,9 +171,14 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
+    "JavaScript/React/GitHub Actions 將 React TypeScript 專案部署到 GitHub Pages.md",
+    "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
+    "System/Linux",
+    "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
+    "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
+    "Python/Python 基礎秘笈.md",
     "Python/python 常用指令.md",
     "Java/Java Stream.md",
-    "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
     "JavaScript/README.md",
     "JavaScript/JavaScript.md",
     "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
@@ -193,19 +198,14 @@
     "JavaScript/React/在 React 中優雅地顯示 List 與 Object (Dict).md",
     "DevTools/Git/Git常用寶典.md",
     "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
-    "Impl實踐心法/《碎片時間的煉金術》.md",
     "Impl實踐心法",
     "JavaScript/React/TailwindCSS",
-    "Java/Intellij 常用設定.md",
-    "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
-    "System/Devops/PostgreSQL  docker-compos backup and restore.md",
     "AI/Prompt",
     "System/Devops",
     "SaaS&Tool&Software/Video",
     "SaaS&Tool&Software",
     "JavaScript/React",
     "技術架構",
-    "JavaScript/NodeJS",
-    "AI/文章"
+    "JavaScript/NodeJS"
   ]
 }
