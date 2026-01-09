@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
-                "mode": "preview",
+                "file": "System/Linux/Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
+              "title": "Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
+                "file": "System/Linux/Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
+              "title": "Outline of Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置"
             }
           }
         ],
@@ -172,7 +172,7 @@
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
     "JavaScript/React/GitHub Actions 將 React TypeScript 專案部署到 GitHub Pages.md",
-    "System/Linux/GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
+    "System/Linux/Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置.md",
     "System/Linux",
     "JavaScript/How to Deploy a React TypeScript Project to GitHub Pages using GitHub Actions.md",
     "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",

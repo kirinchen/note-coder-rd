@@ -1,3 +1,5 @@
+# Linux mint GPD MicroPC 用戶 or UMPC 掌機玩家 新酷音 設定注音位置
+
 
 這是一個 GPD MicroPC 用戶 (以及所有 UMPC 掌機玩家) 非常經典的痛點！
 
