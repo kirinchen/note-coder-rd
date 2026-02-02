@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
+                "file": "MachineLearning/MLflow/MLflow Server 疑難雜症.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Poetry 版 MLflow + XGBoost Hello World 指南"
+              "title": "MLflow Server 疑難雜症"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
+                "file": "MachineLearning/MLflow/MLflow Server 疑難雜症.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Poetry 版 MLflow + XGBoost Hello World 指南"
+              "title": "Outline of MLflow Server 疑難雜症"
             }
           }
         ],
@@ -185,9 +185,11 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "Python/Python 基礎秘笈.md",
-    "MachineLearning/xgboost/Poetry 和 xgboost  疑難雜症.md",
     "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
+    "MachineLearning/MLflow/MLflow Server 疑難雜症.md",
+    "MachineLearning/xgboost/Poetry 和 xgboost  疑難雜症.md",
+    "System/Linux/linux kswapd0 cpu 用量飆高解決辦法.md",
+    "Python/Python 基礎秘笈.md",
     "MachineLearning/xgboost",
     "System/Linux/2026 Jenkins Install 適用 Linux Mint & Ubuntu.md",
     "MachineLearning/MLflow",
@@ -214,8 +216,6 @@
     "Java/Java Stream.md",
     "JavaScript/README.md",
     "JavaScript/JavaScript.md",
-    "JavaScript/React/React 基本小筆記.md",
-    "JavaScript/React/Capacitor 實戰教學 React 專案打包為 iOS Android App.md",
     "Impl實踐心法",
     "JavaScript/React/TailwindCSS",
     "AI/Prompt",
