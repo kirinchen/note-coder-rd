@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱.md",
+                "file": "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱"
+              "title": "TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱.md",
+                "file": "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱"
+              "title": "Outline of TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係"
             }
           }
         ],
@@ -185,8 +185,9 @@
   },
   "active": "42e261c8a424290d",
   "lastOpenFiles": [
-    "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
     "Java/JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱.md",
+    "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
+    "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
     "MachineLearning/MLflow/MLflow Server 疑難雜症.md",
     "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Java/JSON Jackson 常見設定.md",
@@ -213,7 +214,6 @@
     "Python/README.md",
     "JavaScript/React/React web 透過 github action 部屬到firebase hosting 架設網站.md",
     "JavaScript/React/TailwindCSS/React + Tailwind CSS 完整入門教學.md",
-    "JavaScript/React/用 Vite 光速啟動你的 React 新專案.md",
     "Python/conda",
     "System/Linux",
     "Impl實踐心法",
