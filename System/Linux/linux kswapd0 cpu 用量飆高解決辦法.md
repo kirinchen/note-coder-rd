@@ -32,9 +32,9 @@
 
 您的 Swap 只有 512MB，太小了。對於 2GB 的機器，建議給它 **2GB ~ 4GB** 的 Swap 緩衝。這不會讓速度變快，但能**防止當機**。
 
-Bash
 
-```
+
+```Bash
 # 1. 關閉現有 swap
 sudo swapoff -a
 
@@ -54,9 +54,9 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 防止某個容器（例如 MLflow 或 Jenkins）把整台機器拖垮。在 `docker-compose.yml` 中加上限制：
 
-YAML
 
-```
+
+```YAML
 services:
   mlflow:
     # ...
