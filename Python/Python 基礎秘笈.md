@@ -56,12 +56,34 @@ pet -> dog
 
 ## datatime
 
+### 1. 基本用法
+
+```Python
+from datetime import datetime
+
+# 設定為 2026年 2月 13日 15點 30分
+dt = datetime(2026, 2, 13, 15, 30)
+
+print(dt) 
+# 輸出: 2026-02-13 15:30:00
+```
+
+### 2. 從現有時間「修改」到分
+
 ### String(ISO8601) to Datetime
 
 ```python=
 import dateutil.parser
 
 lAt: datetime = dateutil.parser.parse("2019-09-07T-15:50+00") 
+
+# 使用 3.11+ 內建方法，效能最優 dt = 
+
+datetime.fromisoformat(iso_text)
+
+# 設定到「分」（抹除秒與微秒） 
+dt_min = dt.replace(second=0, microsecond=0)
+
 ```
 
 ### Datetime to Unix timestamp
