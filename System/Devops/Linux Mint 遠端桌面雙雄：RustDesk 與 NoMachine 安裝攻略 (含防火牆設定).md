@@ -63,7 +63,83 @@ sudo ufw allow 21116/udp
 sudo ufw reload
 ```
 
----
+### 1. 透過ssh取得 RustDesk ID
+
+RustDesk 的 CLI 工具可以直接查詢 ID。在 SSH 中執行：
+
+
+
+```Bash
+sudo rustdesk --get-id
+```
+
+- **注意**：如果顯示 `command not found`，通常是因為執行檔沒被 link 到 `/usr/bin`。請嘗試完整路徑：
+    
+    
+    
+    ```Bash
+    /usr/bin/rustdesk --get-id
+    ```
+    
+- **備用方案 (查設定檔)**：如果指令沒反應，直接 grep 設定檔最快：
+    
+       
+    ```Bash
+    sudo grep "id =" /root/.config/rustdesk/RustDesk2.toml
+    # 或者是舊版路徑
+    # sudo grep "id =" /root/.config/rustdesk/RustDesk.toml
+    ```
+    
+
+### 2. 設定永久密碼 (Permanent Password)
+
+既然看不到隨機密碼，我們直接用指令設一組固定的。
+
+
+
+```Bash
+sudo rustdesk --password <你的新密碼>
+```
+
+- 執行後，你會看到 `Set password successfully`。
+    
+- 現在你就可以用這個 ID + 這組密碼，從 Windows 直接連進去了。
+    
+
+### 3. RD 的檢查 (如果連不上)
+
+如果你設好了卻連不上，通常是服務沒重整。請重啟 RustDesk 服務：
+
+Bash
+
+```
+sudo systemctl restart rustdesk
+```
+
+以及確認防火牆狀態 (Port 21115-21119)：
+
+Bash
+
+```
+sudo ufw status
+```
+
+**總結指令 (懶人包)：**
+
+
+
+```Bash
+# 1. 拿 ID
+sudo rustdesk --get-id
+
+# 2. 設密碼
+sudo rustdesk --password mySecretPwd123
+
+# 3. 重啟確保生效
+sudo systemctl restart rustdesk
+```
+
+搞定！這樣你完全不需要接螢幕就能遠端了。
 
 ## Part 2: NoMachine —— 區網內的效能王者
 
