@@ -28,6 +28,61 @@ git config --global user.name "你的名字"
 git config --global user.email "your.email@example.com"
 ```
 
+
+## 步驟 1.5：取得專案 (Git Clone)
+
+如果你是加入一個已經存在的團隊，或者想從 GitHub 下載開源專案，你不需要 `git init`，而是需要 `git clone`。在 VS Code 中，這件事變得超級簡單，連指令都不用打。
+
+### 方法一：使用命令面板 (最推薦，不用滑鼠)
+
+這是 VS Code 的精隨操作，快速又帥氣。
+
+1. **複製網址**：先去 GitHub/GitLab 專案頁面，點擊綠色的 `Code` 按鈕，複製 `.git` 結尾的網址 (HTTPS 或 SSH 皆可)。
+    
+2. **呼叫指令**：在 VS Code 中按下 **`F1`** 或 **`Ctrl + Shift + P`** (Mac: `Cmd + Shift + P`) 開啟命令面板。
+    
+3. **輸入 Clone**：輸入 `Git: Clone` 並按下 Enter。
+    
+4. **貼上網址**：將剛剛複製的網址貼上，再按 Enter。
+    
+5. **選擇存放位置**：VS Code 會跳出檔案總管，請選擇一個你想要存放專案的 **「資料夾」** (例如 `D:\Projects`)。
+    
+6. **立刻開啟**：下載完成後，右下角會跳出通知：「Would you like to open the cloned repository?」，直接點擊 **Open** (開啟) 或 **Open in New Window** (在新視窗開啟)。
+    
+
+### 方法二：使用「來源控制」面板 (視覺化操作)
+
+如果你剛打開 VS Code，什麼檔案都沒開，這是最直覺的方式。
+
+1. 點擊左側的 **「來源控制」 (Source Control)** 圖示 (那個分岔的樹枝圖案)。
+    
+2. 你會看到兩個大按鈕：`Open Folder` 和 `Clone Repository`。
+    
+3. 點擊 **Clone Repository**。
+    
+4. 接著步驟同上，貼上網址並選擇存放路徑即可。
+    
+
+> **小撇步 (Pro Tip)**：
+> 
+> VS Code 甚至支援直接貼上 GitHub 的 **網頁網址** (不一定要 `.git` 結尾)，它會自動幫你辨識並下載！
+
+---
+
+### 這樣你的 Blog 結構就會更完整：
+
+1. **環境配置** (安裝 Git, 設定 Name/Email)
+    
+2. **取得專案 (Git Clone)** <--- _插入這裡_
+    
+3. **介面導覽** (Stage, Commit, Push/Pull)
+    
+4. **分支操作** (Branching)
+    
+5. **進階功能** (解決衝突)
+    
+6. **必裝插件** (GitLens, Git Graph)
+
 ### 2. 關鍵設定：讓 VS Code 成為 Git 的預設編輯器
 
 這是許多人忽略的一步！設定後，當你執行 `git rebase` 或 `git commit` (沒帶訊息) 時，Git 會自動打開 VS Code 讓你編輯，而不是把你卡在難用的 Vim 裡。
