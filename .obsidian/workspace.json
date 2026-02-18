@@ -1,85 +1,54 @@
 {
   "main": {
-    "id": "39e53da11af21fd5",
+    "id": "d4fa42b59154fc41",
     "type": "split",
     "children": [
       {
-        "id": "8a978e2f9b2d0bba",
+        "id": "fd989446cc576e3c",
         "type": "tabs",
         "children": [
           {
-            "id": "42e261c8a424290d",
+            "id": "0b2c2b712c441ff8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係"
-            }
-          },
-          {
-            "id": "9f1bbf869b189e2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python @dataclass 必知實用技巧.md",
-                "file": "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
+                "file": "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python @dataclass 必知實用技巧"
-              "title": "JSON - jsonpickle 多型物件 JSON 序列化"
-            }
-          },
-          {
-            "id": "883277a0ea73b354",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化"
+              "title": "VS Code Git 全攻略：從環境設定到進階版控"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a016749de94a7fcd",
+    "id": "209c8b459b7e28ef",
     "type": "split",
     "children": [
       {
-        "id": "2c31f121a64fc074",
+        "id": "47d2e1b20171ee0a",
         "type": "tabs",
         "children": [
           {
-            "id": "f517c64ad826f6c9",
+            "id": "fe174ed1843cc88a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "85f3f8d6bec0e7a2",
+            "id": "4b5443900e03f317",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -96,7 +65,7 @@
             }
           },
           {
-            "id": "fdaf4ce563dfffd4",
+            "id": "cbdcf04a9f835238",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 300
   },
   "right": {
-    "id": "a5c03ad6ae2af8a6",
+    "id": "44e235be8eaf3a70",
     "type": "split",
     "children": [
       {
-        "id": "893abc418dbbe74a",
+        "id": "2a57a2e4fbfad659",
         "type": "tabs",
         "children": [
           {
-            "id": "cb2359569381dfa5",
+            "id": "205bcfd4f0328ed1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for VS Code Git 全攻略：從環境設定到進階版控"
             }
           },
           {
-            "id": "58012d4aa31b1bac",
+            "id": "08c1e0014796c6dc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from VS Code Git 全攻略：從環境設定到進階版控"
             }
           },
           {
-            "id": "996baf9ebbddc865",
+            "id": "4ddc18d3996d808c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -168,84 +137,40 @@
             }
           },
           {
-            "id": "2e0cb0400c76966d",
+            "id": "718d7a75259ef84a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python @dataclass 必知實用技巧.md",
-                "file": "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
+                "file": "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python @dataclass 必知實用技巧"
-              "title": "Outline of JSON - jsonpickle 多型物件 JSON 序列化"
+              "title": "Outline of VS Code Git 全攻略：從環境設定到進階版控"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "9f1bbf869b189e2a",
+  "active": "0b2c2b712c441ff8",
   "lastOpenFiles": [
-    "Python/Python @dataclass 必知實用技巧.md",
-
-
-
-
-
-
-    "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
-    "SUMMARY.md",
-    "Python/Python @dataclass 必知實用技巧.md",
-    "Python/conda/Conda +PyCharm 使用 Anaconda Prompt 安裝套件.md",
-    "Python/conda/Conda 紀錄你環境中所有的套件版本.md",
-    "Python/Python 基礎秘笈.md",
-    "MachineLearning/隨機森林 (Random Forest) vs. XGBoost 實戰預測.md",
-    "Java/JSON 序列化與泛型：徹底解決 Jackson 的 Type Erasure 陷阱.md",
-    "System/Linux/linux kswapd0 cpu 用量飆高解決辦法.md",
-    "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
-    "MachineLearning/MLflow/Poetry 版 MLflow + XGBoost Hello World 指南.md",
-    "MachineLearning/MLflow/MLflow Server 疑難雜症.md",
-    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
-    "Java/JSON Jackson 常見設定.md",
-    "Java/Java lombok 好用annotation小筆記.md",
-    "Java/Java JSON 不同的field 要轉成同一個DTO.md",
-    "System/Linux/Linux Google Chrome Remote Desktop 終極攻略.md",
-    "Impl實踐心法/快速應對指南 - 放下手中的大象.象與騎象人.md",
-    "Impl實踐心法/《銅牌心法秘笈：執行動力 不敗戰士的潛規則》.md",
-    "Impl實踐心法/《碎片時間的煉金術》.md",
-    "MachineLearning/xgboost/Poetry 和 xgboost  疑難雜症.md",
-    "MachineLearning/xgboost",
-    "System/Linux/2026 Jenkins Install 適用 Linux Mint & Ubuntu.md",
-    "MachineLearning/MLflow",
-    "MachineLearning",
-    "SaaS&Tool&Software/誰是你的 AI API首選？Kie.ai vs. Fal.ai 深度解析.md",
-    "Python/2026 現代化 Python 環境配置全攻略：Pyenv + Poetry + Conda 完美共存.md",
-    "Docker/Docker 常用指令.md",
-    "Python/Flask 常用小筆記.md",
-    "Python/conda",
-    "System/Linux",
-    "Impl實踐心法",
-    "JavaScript/React/TailwindCSS",
-    "AI/Prompt",
-    "System/Devops",
-    "SaaS&Tool&Software/Video"
+    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md"
   ]
 }
