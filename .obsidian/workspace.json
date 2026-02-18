@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Linux/Ubuntu or Linux mint 常用開發工具安裝手冊.md",
+                "file": "System/Devops/Linux Mint 遠端桌面雙雄：RustDesk 與 NoMachine 安裝攻略 (含防火牆設定).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu or Linux mint 常用開發工具安裝手冊"
+              "title": "Linux Mint 遠端桌面雙雄：RustDesk 與 NoMachine 安裝攻略 (含防火牆設定)"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vscode",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System/Linux/Ubuntu or Linux mint 常用開發工具安裝手冊.md",
+                "file": "System/Devops/Linux Mint 遠端桌面雙雄：RustDesk 與 NoMachine 安裝攻略 (含防火牆設定).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ubuntu or Linux mint 常用開發工具安裝手冊"
+              "title": "Outline of Linux Mint 遠端桌面雙雄：RustDesk 與 NoMachine 安裝攻略 (含防火牆設定)"
             }
           }
         ],
@@ -200,8 +200,10 @@
   },
   "active": "9f1bbf869b189e2a",
   "lastOpenFiles": [
-    "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
+    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
+    "System/Devops/Linux Mint 遠端桌面雙雄：RustDesk 與 NoMachine 安裝攻略 (含防火牆設定).md",
     "System/Linux/Ubuntu or Linux mint 常用開發工具安裝手冊.md",
+    "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
     "SaaS&Tool&Software/IDE",
     "System/Linux/Ubuntu or Linux mint 安裝Docker and Docker Compose.md",
     "Python/Python @dataclass 必知實用技巧.md",
@@ -226,10 +228,8 @@
     "Impl實踐心法/《碎片時間的煉金術》.md",
     "MachineLearning/xgboost/Poetry 和 xgboost  疑難雜症.md",
     "MachineLearning/xgboost",
-    "System/Linux/2026 Jenkins Install 適用 Linux Mint & Ubuntu.md",
     "MachineLearning/MLflow",
     "MachineLearning",
-    "SaaS&Tool&Software/誰是你的 AI API首選？Kie.ai vs. Fal.ai 深度解析.md",
     "Python/conda",
     "System/Linux",
     "Impl實踐心法",
