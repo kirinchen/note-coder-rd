@@ -75,9 +75,9 @@ public <T> List<T> parseList(String json, Class<T> elementClass) {
 List<User> users = parseList(jsonString, User.class);
 ```
 
-### 場景：我有更複雜的包裝類別 (e.g., Result<T>)
+### 場景：我有更複雜的包裝類別 
 
-如果你的結構是 `Result<Data<T>>` 這種多層泛型：
+如果你的結構是 Result<Data<>> 這種多層泛型：
 
 
 
@@ -141,12 +141,12 @@ List<User> list = mapper.readValue(jsonData, restoredType);
 
 ## 總結 Cheat Sheet
 
-|**場景**|**關鍵技術**|**程式碼片段**|
-|---|---|---|
-|**寫死型別**|`TypeReference`|`new TypeReference<List<User>>(){}`|
-|**動態傳入 Class**|`TypeFactory`|`factory.constructCollectionType(List.class, clazz)`|
-|**複雜包裝類**|`TypeFactory`|`factory.constructParametricType(Wrapper.class, innerType)`|
-|**存儲/還原泛型**|`Canonical String`|`type.toCanonical()` / `factory.constructFromCanonical(str)`|
+| **場景**         | **關鍵技術**           | **程式碼片段**                                                    |
+| -------------- | ------------------ | ------------------------------------------------------------ |
+| **寫死型別**       | `TypeReference`    | `new TypeReference<List<User>>(){}`                          |
+| **動態傳入 Class** | `TypeFactory`      | `factory.constructCollectionType(List.class, clazz)`         |
+| **複雜包裝類**      | `TypeFactory`      | `factory.constructParametricType(Wrapper.class, innerType)`  |
+| **存儲/還原泛型**    | `Canonical String` | `type.toCanonical()` / `factory.constructFromCanonical(str)` |
 
 掌握 `TypeFactory`，你就掌握了 Jackson 處理泛型的核心。下次再看到 `LinkedHashMap` 出現在你的 List 裡，你就知道該怎麼辦了！
 
