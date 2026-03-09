@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/feature importances/導入 AutoML (Optuna) 自動尋找最強特徵組合與勝率極值.md",
+                "file": "Impl實踐心法/在演算法的洪流中，做一隻自由的大象：我的創作者宣言.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "導入 AutoML (Optuna) 自動尋找最強特徵組合與勝率極值"
+              "title": "在演算法的洪流中，做一隻自由的大象：我的創作者宣言"
             }
           }
         ],
@@ -186,8 +186,11 @@
   },
   "active": "dea0a74e6c0bfb1f",
   "lastOpenFiles": [
-    "MachineLearning/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
+    "Impl實踐心法/快速應對指南 - 放下手中的大象.象與騎象人.md",
+    "Impl實踐心法/在演算法的洪流中，做一隻自由的大象：我的創作者宣言.md",
+    "Python/conda/Conda 紀錄你環境中所有的套件版本.md",
     "MachineLearning/feature importances/導入 AutoML (Optuna) 自動尋找最強特徵組合與勝率極值.md",
+    "MachineLearning/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
     "MachineLearning/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
     "MachineLearning/feature importances",
     "MachineLearning/隨機森林 (Random Forest) vs. XGBoost 實戰預測.md",
@@ -196,7 +199,6 @@
     "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Java/Java JSON 不同的field 要轉成同一個DTO.md",
     "Python/JSON - jsonpickle 多型物件 JSON 序列化.md",
-    "Python/conda/Conda 紀錄你環境中所有的套件版本.md",
     "SaaS&Tool&Software/IDE/VS Code Git 全攻略：從環境設定到進階版控.md",
     "Python/conda/Conda +PyCharm 使用 Anaconda Prompt 安裝套件.md",
     "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md"
