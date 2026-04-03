@@ -185,6 +185,7 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
+    "Rust/Rust 環境選擇與原理.md",
     "Rust/給資深開發者的 Rust 快速通關指南.md",
     "Rust/Rust 開發環境完整教學.md",
     "AI/Vibe Coding/Spec-kit 企業級 Spec-Driven Development (SDD) 開發指南.md",
@@ -218,7 +219,6 @@
     "AI/Vibe Coding/speckit_plan",
     "MachineLearning_資料科學/feature importances/AutoML-05 總結三部曲：基礎調參、巨量降維與特徵煉金的戰略差異.md",
     "AI/Vibe Coding",
-    "Java/Java lombok 好用annotation小筆記.md",
     "Rust/Tauri",
     "Rust",
     "MachineLearning_資料科學/feature importances"
