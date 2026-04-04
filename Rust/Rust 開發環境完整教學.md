@@ -166,12 +166,12 @@ sudo usermod -aG docker $USER
 
 常用開啟方式（擇一即可）：
 
-| 方式 | 操作 |
-| --- | --- |
-| Ubuntu 應用程式 | **開始** 選單搜「Ubuntu」→ 開啟 |
-| Windows Terminal | 開啟 Windows Terminal → 分頁下拉選 **Ubuntu**（若沒有，先到設定裡新增 WSL 設定檔） |
-| 從 PowerShell 進入 | 在 PowerShell 執行 `wsl` 或 `wsl -d Ubuntu` |
-| 已在 VSCode 用 Remote-WSL | 連上 WSL 後，**終端機 → 新增終端機** 預設就是該 distro 的 shell |
+| 方式                     | 操作                                                          |
+| ---------------------- | ----------------------------------------------------------- |
+| Ubuntu 應用程式            | **開始** 選單搜「Ubuntu」→ 開啟                                      |
+| Windows Terminal       | 開啟 Windows Terminal → 分頁下拉選 **Ubuntu**（若沒有，先到設定裡新增 WSL 設定檔） |
+| 從 PowerShell 進入        | 在 PowerShell 執行 `wsl` 或 `wsl -d Ubuntu`                     |
+| 已在 VSCode 用 Remote-WSL | 連上 WSL 後，**終端機 → 新增終端機** 預設就是該 distro 的 shell               |
 
 第一次若跳出 Linux 帳密登入，代表你已進入 WSL2，不是 Windows 的 `C:\`。
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Tauri/打造 Tauri v2 專案基礎 Hello World.md",
+                "file": "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "打造 Tauri v2 專案基礎 Hello World"
+              "title": "tmux + SSH 讓 claude 重新連接"
             }
           },
           {
@@ -185,10 +185,13 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
-    "Rust/Rust 環境選擇與原理.md",
-    "Rust/給資深開發者的 Rust 快速通關指南.md",
     "Rust/Rust 開發環境完整教學.md",
+    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
+    "AI/ReArt",
+    "Rust/Rust 環境選擇與原理.md",
     "AI/Vibe Coding/Spec-kit 企業級 Spec-Driven Development (SDD) 開發指南.md",
+    "Rust/Tauri/打造 Tauri v2 專案基礎 Hello World.md",
+    "Rust/給資深開發者的 Rust 快速通關指南.md",
     "Java/README.md",
     "MachineLearning_資料科學/AI 與機器學習全景 Tree Map.md",
     "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
@@ -215,9 +218,7 @@
     "MachineLearning_資料科學/EDA",
     "AI/Vibe Coding/speckit_plan/plan-template-react-web.md",
     "AI/Vibe Coding/speckit_plan/plan-template-python-etl.md",
-    "AI/Vibe Coding/speckit_plan/plan-template-java-api.md",
     "AI/Vibe Coding/speckit_plan",
-    "MachineLearning_資料科學/feature importances/AutoML-05 總結三部曲：基礎調參、巨量降維與特徵煉金的戰略差異.md",
     "AI/Vibe Coding",
     "Rust/Tauri",
     "Rust",
