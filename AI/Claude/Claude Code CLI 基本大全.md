@@ -264,6 +264,33 @@ git diff --staged | claude -p "幫我寫一個符合 Conventional Commits 格式
 
 ---
 
+# 開新 Session
+
+直接用這個指令開新 session：
+
+```bash
+claude
+```
+
+在已有的 session 裡，你也可以用：
+
+```
+/new
+```
+
+---
+
+**其他相關指令：**
+
+|指令|說明|
+|---|---|
+|`claude`|開新 session|
+|`/new`|在目前 session 內開新的|
+|`/clear`|清除目前 conversation history（同 session，但記憶清空）|
+|`/rename <name>`|幫目前 session 命名|
+
+如果你是用 tmux 跑多個 session，可以開新 window 再跑 `claude`，這樣兩個 session 可以並行。
+
 ## 🔗 官方文件
 
 - [Claude Code 文件](https://docs.claude.com/en/docs/claude-code/overview)

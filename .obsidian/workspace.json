@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Tauri/Rust Hello World & 基本.md",
+                "file": "Rust/深入淺出/Phase 4：進階與並行 — 效能巔峰.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust Hello World & 基本"
-            }
-          },
-          {
-            "id": "cd1da92d75edb157",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法)"
+              "title": "Phase 4：進階與並行 — 效能巔峰"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "claude",
+                "query": "gh auth",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,47 +169,47 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "cd5f375b0cb434fd",
+  "active": "fe174ed1843cc88a",
   "lastOpenFiles": [
-    "SaaS&Tool&Software/Obsidian/Obsidian AI Exporter 教學.md",
-    "Rust/Tauri/Rust Hello World & 基本.md",
-    "AI/Claude/Claude Code CLI 基本大全.md",
-    "SaaS&Tool&Software/Obsidian",
-    "AI/Claude/Claude Code 完整 Reset 專案狀態.md",
-    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
-    "AI/Claude",
-    "Rust/Rust 開發環境完整教學.md",
-    "Java/JPA Create_Update 前修改 Entity (@PrePersist_@PreUpdate).md",
+    "Rust/深入淺出/Phase 3：模組化與抽象設計.md",
+    "Rust/深入淺出/Phase 4：進階與並行 — 效能巔峰.md",
+    "Rust/深入淺出/Phase 2：核心靈魂 — 記憶體安全.md",
+    "Rust/深入淺出/Phase 1：型別系統與錯誤處理.md",
+    "Rust/深入淺出/Phase 0：基礎語法快速通關.md",
+    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
+    "Rust/深入淺出",
+    "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
     "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
+    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
+    "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
+    "AI/Claude/Meta-level-ReAct-n8n-架構筆記.md",
+    "AI/gemini/牛排熟度日文表达-2daefe1a.md",
+    "AI/Claude/react与gerente执行方案对比分析-ea45b419.md",
+    "AI/Claude/Claude Code CLI 基本大全.md",
+    "AI/Claude/Claude Code 完整 Reset 專案狀態.md",
+    "DevTools/Git/Git & GitHub 快速上手懶人包.md",
+    "SUMMARY.md",
+    "未命名.md",
+    "System.md",
+    "AI/claude/react与gerente执行方案对比分析-ea45b419.md",
+    "AI/gemini",
+    "什么是 CMA-ES.md",
+    "Docker/Docker 常用指令.md",
+    "錄影錄音/DJI/DJI Mic 2 發射器.md",
+    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
+    "錄影錄音/DJI",
+    "錄影錄音",
+    "Rust/Rust VSCode Launcher 設定說明.md",
+    "SaaS&Tool&Software/License 要用嗎!.md",
+    "SaaS&Tool&Software/Obsidian",
+    "AI/Claude",
     "newplot (1).png",
     "AI/ReArt",
-    "Rust/Rust 環境選擇與原理.md",
-    "AI/Vibe Coding/Spec-kit 企業級 Spec-Driven Development (SDD) 開發指南.md",
-    "Rust/Tauri/打造 Tauri v2 專案基礎 Hello World.md",
-    "Rust/給資深開發者的 Rust 快速通關指南.md",
-    "Java/README.md",
-    "MachineLearning_資料科學/AI 與機器學習全景 Tree Map.md",
-    "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
-    "AI/AI.md",
-    "MachineLearning_資料科學/DataStore/DBeaver 讀取與分析 Parquet 檔案完整教學.md",
-    "MachineLearning_資料科學/隨機森林 (Random Forest) vs. XGBoost 實戰預測.md",
-    "MachineLearning_資料科學/TensorFlow,XGBoost,Random Forest,KNN,SVM, 與 CMA-ES 的關係.md",
-    "Java/Java Record vs final field class 使用lombok 比較_.md",
-    "Java/JSON Jackson 常見設定.md",
-    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
-    "Java/Java Final field Class Json serializable.md",
-    "SaaS&Tool&Software/Video/Shotstack.md",
-    "SaaS&Tool&Software/Video/Creatomate.md",
-    "MachineLearning_資料科學/EDA/EDA 解密 Histogram Grid —— 揪出摧毀模型的「極端值地雷」.md",
     "Pasted image 20260326171631.png",
     "newplot.png",
     "Pasted image 20260324103151.png",
     "MachineLearning_資料科學/DataStore",
     "MachineLearning_資料科學/EDA",
-    "AI/Vibe Coding/speckit_plan",
-    "AI/Vibe Coding",
-    "Rust/Tauri",
-    "Rust",
-    "MachineLearning_資料科學/feature importances"
+    "AI/Vibe Coding/speckit_plan"
   ]
 }

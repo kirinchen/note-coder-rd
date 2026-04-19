@@ -26,6 +26,29 @@
 3. **重要：** 安裝完畢後，**關閉所有** 終端機視窗，重新開啟 Git Bash，輸入 `gh --version` 確認有跑出版本號。
     
 
+#### Linux 安裝方式（Ubuntu/Debian、Fedora、Arch、openSUSE）
+
+如果你是在 Linux 上操作，建議先把 `git` 與 `gh` 都裝好，並用版本號確認是否成功。
+
+```Bash
+# Ubuntu / Debian
+sudo apt update
+sudo apt install -y git gh
+
+# Fedora
+sudo dnf install -y git gh
+
+# Arch
+sudo pacman -S --needed git github-cli
+
+# openSUSE
+sudo zypper install -y git gh
+
+# 驗證
+git --version
+gh --version
+```
+
 ---
 
 ### 第二步：登入 GitHub (解決權限問題)
