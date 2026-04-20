@@ -1,4 +1,5 @@
 [
   "dynamic-outline",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-git"
 ]
