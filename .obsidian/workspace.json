@@ -183,6 +183,8 @@
   },
   "active": "fe174ed1843cc88a",
   "lastOpenFiles": [
+    "AI/Claude/ClaudeCode 產品架構的角色分工設計.md",
+    "AI/Claude/AI Agent 架構的角色分工設計.md",
     "README.md.tmp.29160.1777439156191",
     "SUMMARY.md.tmp.29160.1777439149093",
     "API/README.md",
@@ -210,7 +212,6 @@
     "Rust/深入淺出/Phase 0：基礎語法快速通關.md",
     "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Rust/深入淺出",
-    "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
     "AI/gemini",
     "錄影錄音/DJI",
     "錄影錄音",
@@ -221,7 +222,6 @@
     "Pasted image 20260326171631.png",
     "newplot.png",
     "Pasted image 20260324103151.png",
-    "MachineLearning_資料科學/DataStore",
-    "MachineLearning_資料科學/EDA"
+    "MachineLearning_資料科學/DataStore"
   ]
 }
