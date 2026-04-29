@@ -181,8 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd5f375b0cb434fd",
+  "active": "fe174ed1843cc88a",
   "lastOpenFiles": [
+    "README.md.tmp.29160.1777439156191",
+    "SUMMARY.md.tmp.29160.1777439149093",
+    "API/README.md",
+    "Impl實踐心法/README.md",
+    "SaaS&Tool&Software/README.md",
+    "MachineLearning_資料科學/README.md",
+    "Rust/README.md",
+    "Docker/README.md",
+    "Monitoring/README.md",
+    "Database/README.md",
+    "AI/README.md",
     "System/Linux/tmux 速查表.md",
     "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
     "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
@@ -200,16 +211,6 @@
     "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Rust/深入淺出",
     "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
-    "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
-    "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
-    "AI/Claude/Meta-level-ReAct-n8n-架構筆記.md",
-    "AI/gemini/牛排熟度日文表达-2daefe1a.md",
-    "AI/Claude/react与gerente执行方案对比分析-ea45b419.md",
-    "DevTools/Git/Git & GitHub 快速上手懶人包.md",
-    "SUMMARY.md",
-    "未命名.md",
-    "System.md",
-    "AI/claude/react与gerente执行方案对比分析-ea45b419.md",
     "AI/gemini",
     "錄影錄音/DJI",
     "錄影錄音",
@@ -221,7 +222,6 @@
     "newplot.png",
     "Pasted image 20260324103151.png",
     "MachineLearning_資料科學/DataStore",
-    "MachineLearning_資料科學/EDA",
-    "AI/Vibe Coding/speckit_plan"
+    "MachineLearning_資料科學/EDA"
   ]
 }
