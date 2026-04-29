@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
+                "file": "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux + SSH 讓 claude 重新連接"
+              "title": "Multi-AI Agent 架構、雙層部署、與 plugin 治理層"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gh auth",
+                "query": "tmux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +183,12 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
+    "System/Linux/tmux 速查表.md",
+    "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
+    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
     "AI/Claude/Claude Code CLI 基本大全.md",
+    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
+    "AI/tools&mcp/在 Claude Code 中整合 NotebookLM MCP：完整安裝教學.md",
     "AI/Claude/Claude Code 完整 Reset 專案狀態.md",
     "AI/Vibe Coding/Spec-kit 企業級 Spec-Driven Development (SDD) 開發指南.md",
     "AI/Vibe Coding/spec-kit constitution.md 範本.md",
@@ -195,7 +201,6 @@
     "Rust/深入淺出",
     "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
     "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
-    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
     "AI/Prompt/萊拉 (Lyra) AI 提示詞優化助手.md",
     "AI/Claude/Meta-level-ReAct-n8n-架構筆記.md",
     "AI/gemini/牛排熟度日文表达-2daefe1a.md",
@@ -206,10 +211,6 @@
     "System.md",
     "AI/claude/react与gerente执行方案对比分析-ea45b419.md",
     "AI/gemini",
-    "什么是 CMA-ES.md",
-    "Docker/Docker 常用指令.md",
-    "錄影錄音/DJI/DJI Mic 2 發射器.md",
-    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
     "錄影錄音/DJI",
     "錄影錄音",
     "SaaS&Tool&Software/Obsidian",
