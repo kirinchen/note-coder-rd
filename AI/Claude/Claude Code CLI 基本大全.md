@@ -168,6 +168,150 @@ claude -p "查詢資料" --allowedTools "Bash,Read,mcp__datadog"
 
 ---
 
+## 🎯 `-p` (Print Mode) 進階用法
+
+`-p` / `--print` 是讓 Claude Code 跑「**一次性、非互動、印出結果就結束**」的核心 flag，幾乎所有自動化、CI、Hook、n8n 整合都依賴它。
+
+### 基本語法
+
+```bash
+# 形式 1：直接帶 prompt
+claude -p "你要做的事"
+
+# 形式 2：從 stdin 讀入 prompt
+echo "你要做的事" | claude -p
+
+# 形式 3：prompt + pipe 內容當資料
+cat file.log | claude -p "分析這份 log 找出錯誤"
+```
+
+### 常用組合 flag
+
+| Flag | 作用 | 範例 |
+|---|---|---|
+| `--output-format text` | 純文字輸出（預設） | `claude -p "..." --output-format text` |
+| `--output-format json` | 整包 JSON（含 metadata、cost） | `claude -p "..." --output-format json` |
+| `--output-format stream-json` | 串流式 JSON，每個事件一行 | 適合即時處理 |
+| `--max-turns N` | 限制最多幾輪工具呼叫 | `--max-turns 3` 防失控 |
+| `--model <id>` | 指定模型 | `--model claude-opus-4-7` |
+| `--append-system-prompt` | 在系統提示後追加內容 | 注入專家角色 |
+| `--allowedTools` | 白名單工具 | `--allowedTools "Read,Bash(git:*)"` |
+| `--disallowedTools` | 黑名單工具 | `--disallowedTools "Bash(rm:*)"` |
+| `--add-dir` | 加入額外可讀取目錄 | monorepo 必備 |
+| `--resume <id>` | 在 `-p` 模式下接續特定 session | 跨次累積 context |
+
+### 實戰範例
+
+```bash
+# 1. CI 自動 Code Review（吐 JSON 給後續流程解析）
+git diff origin/main | claude -p "review 這個 diff，列出潛在問題" \
+  --output-format json \
+  --max-turns 1 > review.json
+
+# 2. 寫 commit message（吐純文字直接給 git）
+git commit -m "$(git diff --staged | claude -p '寫一個 Conventional Commits 格式的訊息' --max-turns 1)"
+
+# 3. n8n 觸發：分析錯誤 log
+cat error.log | claude -p "找出根本原因並建議修法" \
+  --append-system-prompt "你是一位 SRE 專家，回應請繁中、條列、附行號"
+
+# 4. 跨次累積（先建脈絡、後續沿用）
+SESSION_ID=$(claude -p "讀完 ./docs 後幫我記住專案" --output-format json | jq -r .session_id)
+claude -p --resume "$SESSION_ID" "根據剛剛的記憶，寫 README"
+
+# 5. 串流模式（即時把 token 餵給前端 / Slack）
+claude -p "寫一份 incident 報告" --output-format stream-json | while read line; do
+  echo "$line" | jq -r '.delta.text // empty'
+done
+```
+
+### Exit Code
+
+- `0`：成功
+- `1`：一般錯誤（prompt 解析失敗、API 錯誤）
+- `非 0`：流程腳本可直接用 `set -e` 或 `if !` 來判斷成敗
+
+### 注意事項
+
+- `-p` 模式**不會**讀互動模式的 `/init`、`/clear` 等指令——所有設定要靠 flag 帶入
+- 預設仍會走權限提示，**腳本場景需搭配 `--allowedTools` 或 `--dangerously-skip-permissions`**
+- `--max-turns` 強烈建議設，避免 LLM 自我迴圈燒 token
+- stdin 同時有 prompt 與 pipe 資料時，**prompt 走參數、資料走 pipe**，別混在一起
+
+---
+
+## ⚠️ `--dangerously-skip-permissions` 深入解析
+
+簡稱 **YOLO 模式**——跳過所有工具權限提示，Claude 可以直接執行 Bash、寫檔、改 git 等所有操作。**強大但危險**，下面說明何時用、何時不能用。
+
+### 語法
+
+```bash
+# 互動模式
+claude --dangerously-skip-permissions
+
+# 非互動 + 跳權限（CI / Hook 的常見組合）
+claude -p "..." --dangerously-skip-permissions
+```
+
+### 適合使用的情境 ✅
+
+1. **隔離環境內**：Docker container、VM、worktree、Codespaces 等可隨時銷毀的 sandbox
+2. **CI / GitHub Actions**：runner 是一次性容器，跑完即銷毀
+3. **n8n Hook 自動優化 workflow**：背景 agent，需要無人值守地完成多步任務
+4. **本機受信目錄 + 縮限工具**：搭配 `--allowedTools` 把可用工具收斂，例如只允許 `Read,Write,Bash(git:*)`
+
+### 不建議使用的情境 ❌
+
+- **直接在主機 `~/` 或專案根目錄跑**：一個 `rm -rf` 就毀了
+- **連線到正式環境 DB / Server 的環境**
+- **未經審查的 prompt**（例如從外部 webhook 直接餵 prompt 給 Claude）—— prompt injection 風險極高
+- **共用主機 / 多用戶機器**
+
+### 安全使用模式
+
+```bash
+# 模式 A：縮限工具 + 跳權限（推薦）
+claude -p "重構 src/ 內的型別" \
+  --allowedTools "Read,Edit,Write" \
+  --disallowedTools "Bash" \
+  --dangerously-skip-permissions
+
+# 模式 B：開新 git worktree 隔離
+git worktree add /tmp/yolo-branch HEAD
+cd /tmp/yolo-branch
+claude --dangerously-skip-permissions
+# 完事後 review → 合回主分支 → 銷毀 worktree
+git worktree remove /tmp/yolo-branch
+
+# 模式 C：Docker 隔離（最安全）
+docker run --rm -v $(pwd):/work -w /work node:20 \
+  bash -c "npm i -g @anthropic-ai/claude-code && \
+           claude -p '$PROMPT' --dangerously-skip-permissions"
+
+# 模式 D：n8n Hook（背景優化 workflow）
+claude -p "$ERROR_LOG → 修正 workflow JSON" \
+  --allowedTools "Read,Write,Bash(curl:*)" \
+  --dangerously-skip-permissions \
+  --max-turns 5 \
+  --output-format json
+```
+
+### 與其他權限機制的對比
+
+| 方法 | 安全性 | 自動化適用度 | 說明 |
+|---|---|---|---|
+| 預設（每次提示） | 🟢 高 | 🔴 不可用 | 互動開發用 |
+| `--allowedTools` | 🟢 高 | 🟡 可，但仍有部分提示 | 縮限工具範圍 |
+| `--dangerously-skip-permissions` | 🔴 低 | 🟢 完全自動 | 跳過所有提示 |
+| `allowedTools` + `skip-permissions` 合用 | 🟡 中 | 🟢 完全自動 | **推薦組合** |
+
+### 一句話總結
+
+> `-p` 讓 Claude 變腳本，`--dangerously-skip-permissions` 讓腳本不被打斷——兩者合用是 AI 自動化的基本套路，但**一定要配合隔離環境或工具白名單**，否則只是把生產環境的鑰匙交給 LLM。
+
+---
+
 ## 📝 自訂 Slash 指令
 
 在 `.claude/commands/` 建立 Markdown 檔案即可新增專案專屬指令：

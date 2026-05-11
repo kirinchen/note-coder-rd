@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
+                "file": "AI/Claude/Claude Code CLI 基本大全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi-AI Agent 架構、雙層部署、與 plugin 治理層"
+              "title": "Claude Code CLI 基本大全"
             }
           }
         ]
@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe174ed1843cc88a",
+  "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
+    "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
     "AI/Claude/ClaudeCode 產品架構的角色分工設計.md",
     "AI/Claude/AI Agent 架構的角色分工設計.md",
     "README.md.tmp.29160.1777439156191",
@@ -197,7 +198,6 @@
     "Database/README.md",
     "AI/README.md",
     "System/Linux/tmux 速查表.md",
-    "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
     "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
     "AI/Claude/Claude Code CLI 基本大全.md",
     "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
