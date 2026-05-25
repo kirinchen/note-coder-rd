@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM agent 拆成兩個 — Builder Agent vs Runtime Agent.md",
+                "file": "AI/Claude/給 Claude Code 一個拉桿ccy我的 YOLO 模式開關.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM agent 拆成兩個 — Builder Agent vs Runtime Agent"
+              "title": "給 Claude Code 一個拉桿ccy我的 YOLO 模式開關"
             }
           }
         ]
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -184,6 +184,7 @@
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
     "AI/Claude/Claude Code CLI 基本大全.md",
+    "AI/Claude/給 Claude Code 一個拉桿ccy我的 YOLO 模式開關.md",
     "AI/LLM agent 拆成兩個 — Builder Agent vs Runtime Agent.md",
     "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
     "AI/Claude/ClaudeCode 產品架構的角色分工設計.md",
@@ -210,7 +211,6 @@
     "Rust/深入淺出/Phase 3：模組化與抽象設計.md",
     "Rust/深入淺出/Phase 2：核心靈魂 — 記憶體安全.md",
     "Rust/深入淺出/Phase 1：型別系統與錯誤處理.md",
-    "Rust/深入淺出/Phase 0：基礎語法快速通關.md",
     "Rust/深入淺出",
     "AI/gemini",
     "錄影錄音/DJI",
