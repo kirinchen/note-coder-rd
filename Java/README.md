@@ -12,6 +12,7 @@
 ## 多執行緒與非同步
 - [Java Thread 工具](Java%20Thread%20工具.md)
 - [Java Thread Async & SpringBoot Scheduler](Java%20Thread%20Async%20...%20_%20SpringBoot%20Scheduler.md)
+- [Java ScopedValue 取代 ThreadLocal 的新選擇](Java%20ScopedValue%20取代%20ThreadLocal%20的新選擇.md)
 
 ## JPA 與資料庫
 - [JPA Spring Data 常用寶典](JPA%20Spring%20Data%20常用寶典.md)
