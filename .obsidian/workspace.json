@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java ScopedValue 取代 ThreadLocal 的新選擇.md",
+                "file": "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java ScopedValue 取代 ThreadLocal 的新選擇"
+              "title": "JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱"
             }
           }
         ]
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +182,12 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
+    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
+    "Java/JSON Jackson 完美反序列化 Lombok Immutable 類別 (包含 @Builder 寫法).md",
+    "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
+    "Java/Java ScopedValue 取代 ThreadLocal 的新選擇.md",
     "Java/Java Thread Async ... _ SpringBoot Scheduler.md",
     "Java/README.md.tmp.26584.3271f2f9f7f6",
-    "Java/Java ScopedValue 取代 ThreadLocal 的新選擇.md",
     "Java/Java ScopedValue 取代 ThreadLocal 的新選擇.md.tmp.26584.93e04cfcb477",
     "Java/GraalVM 使用Polyglot 遇到 A language with id 'xxx' is not installed.md",
     "Java/JPA Spring Data 常用寶典.md",
@@ -210,8 +212,6 @@
     "Database/README.md",
     "AI/README.md",
     "System/Linux/tmux 速查表.md",
-    "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
-    "System/Devops/無需公網 IP Tailscale 3 分鐘把內網搬上雲端：Tailscale 終極上手教學.md",
     "Rust/深入淺出",
     "AI/gemini",
     "錄影錄音/DJI",
