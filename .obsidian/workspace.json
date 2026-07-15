@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Class 基本用法筆記.md",
+                "file": "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Class 基本用法筆記"
+              "title": "別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Class 基本用法筆記.md",
+                "file": "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python Class 基本用法筆記 的大綱"
+              "title": "別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」 的大綱"
             }
           },
           {
@@ -182,19 +182,28 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
-    "Python/Python 基礎秘笈.md",
+    "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md.tmp.24744.56a63cfaf766",
+    "MachineLearning_資料科學/feature importances/特徵交互強弱分析 - 從 a×b 到符號迴歸,挖掘單一指標看不見的訊號.md",
+    "MachineLearning_資料科學/feature importances/特徵交互強弱分析 - 從 a×b 到符號迴歸,挖掘單一指標看不見的訊號.md.tmp.24744.52da15c2226a",
+    "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md.tmp.24744.81787e1e1936",
+    "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md.tmp.24744.4ab56b1ebc3b",
+    "MachineLearning_資料科學/隨機森林 (Random Forest) vs. XGBoost 實戰預測.md",
+    "MachineLearning_資料科學/xgboost/Poetry 和 xgboost  疑難雜症.md",
+    "MachineLearning_資料科學/feature importances/AutoML-04 時間序列的煉金術士 (tsfresh + Optuna).md",
+    "MachineLearning_資料科學/feature importances/AutoML-02：基礎參數與手動特徵開關 (Basic AutoML).md",
+    "MachineLearning_資料科學/feature importances/AutoML-03 巨量特徵的殘酷淘汰賽 (Massive Feature Selection).md",
+    "MachineLearning_資料科學/EDA/EDA Target Correlation Bars - 如何找出真正能有用的量化特徵.md",
+    "MachineLearning_資料科學/EDA/EDA 解密 Histogram Grid —— 揪出摧毀模型的「極端值地雷」.md",
+    "MachineLearning_資料科學/EDA/EDA 特徵熱力圖 (Correlation Heatmap).md",
     "Python/Python Class 基本用法筆記.md",
+    "Python/Python 基礎秘笈.md",
     "Python/Python 繼承 _ reflaction 映射 相關.md",
     "什么是 CMA-ES.md",
     "2026-07-09.md",
     "MachineLearning_資料科學/feature importances/AutoML-01  導入 AutoML (Optuna) 自動尋找最強特徵組合與勝率極值.md",
-    "MachineLearning_資料科學/feature importances/AutoML-03 巨量特徵的殘酷淘汰賽 (Massive Feature Selection).md",
-    "MachineLearning_資料科學/feature importances/AutoML-02：基礎參數與手動特徵開關 (Basic AutoML).md",
-    "MachineLearning_資料科學/feature importances/AutoML-04 時間序列的煉金術士 (tsfresh + Optuna).md",
     "MachineLearning_資料科學/feature importances/AutoML-05 總結三部曲：基礎調參、巨量降維與特徵煉金的戰略差異.md",
     "Python/Python closure & late binding 陷阱.md",
     "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
-    "MachineLearning_資料科學/隨機森林 (Random Forest) vs. XGBoost 實戰預測.md",
     "AI/Claude/給 Claude Code 一個拉桿ccy我的 YOLO 模式開關.md",
     "AI/Claude/Claude Code CLI 基本大全.md",
     "AI/Claude/Claude Code 的 ultracode 到底是什麼.md",
@@ -202,12 +211,6 @@
     "AI/Claude/Meta-level-ReAct-n8n-架構筆記.md",
     "AI/ReArt/tmux + SSH 讓 claude 重新連接.md",
     "AI/n8n 整合 HubSpot 透過AI背景調查並寫回至 HubSpot 欄位.md",
-    "AI/Multi-AI Agent 架構、雙層部署、與 plugin 治理層.md",
-    "AI/LLM agent 拆成兩個 — Builder Agent vs Runtime Agent.md",
-    "AI/如何讓Gpt知道你的專案內容.md",
-    "AI/Claude/Claude Code 完整 Reset 專案狀態.md",
-    "Java/JSON Jackson  序列化與泛型：徹底解決 Type Erasure 陷阱.md",
-    "Java/JSON @JsonTypeInfo 解決 Jackson 多型 (Polymorphic) 序列化.md",
     "Java/README.md.tmp.26584.3271f2f9f7f6",
     "Java/Java ScopedValue 取代 ThreadLocal 的新選擇.md.tmp.26584.93e04cfcb477",
     "README.md.tmp.29160.1777439156191",
@@ -215,9 +218,6 @@
     "Rust/深入淺出",
     "AI/gemini",
     "錄影錄音/DJI",
-    "錄影錄音",
-    "SaaS&Tool&Software/Obsidian",
-    "AI/Claude",
     "newplot (1).png",
     "Pasted image 20260326171631.png",
     "newplot.png",
