@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
+                "file": "Java/Java 熱替換：不重啟就換掉一段邏輯.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」"
+              "title": "Java 熱替換：不重啟就換掉一段邏輯"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dangerously-skip-permissions",
+                "query": "ccy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
+                "file": "Java/Java 熱替換：不重啟就換掉一段邏輯.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」 的大綱"
+              "title": "Java 熱替換：不重啟就換掉一段邏輯 的大綱"
             }
           },
           {
@@ -182,6 +182,12 @@
   },
   "active": "cd5f375b0cb434fd",
   "lastOpenFiles": [
+    "AI/Claude/給 Claude Code 一個拉桿ccy我的 YOLO 模式開關.md",
+    "Java/Java 熱替換：不重啟就換掉一段邏輯.md",
+    "MachineLearning_資料科學/EDA/EDA 特徵熱力圖 (Correlation Heatmap).md",
+    "MachineLearning_資料科學/EDA/EDA 解密 Histogram Grid —— 揪出摧毀模型的「極端值地雷」.md",
+    "MachineLearning_資料科學/EDA/EDA Target Correlation Bars - 如何找出真正能有用的量化特徵.md",
+    "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
     "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md.tmp.24744.56a63cfaf766",
     "MachineLearning_資料科學/feature importances/特徵交互強弱分析 - 從 a×b 到符號迴歸,挖掘單一指標看不見的訊號.md",
     "MachineLearning_資料科學/feature importances/特徵交互強弱分析 - 從 a×b 到符號迴歸,挖掘單一指標看不見的訊號.md.tmp.24744.52da15c2226a",
@@ -192,9 +198,6 @@
     "MachineLearning_資料科學/feature importances/AutoML-04 時間序列的煉金術士 (tsfresh + Optuna).md",
     "MachineLearning_資料科學/feature importances/AutoML-02：基礎參數與手動特徵開關 (Basic AutoML).md",
     "MachineLearning_資料科學/feature importances/AutoML-03 巨量特徵的殘酷淘汰賽 (Massive Feature Selection).md",
-    "MachineLearning_資料科學/EDA/EDA Target Correlation Bars - 如何找出真正能有用的量化特徵.md",
-    "MachineLearning_資料科學/EDA/EDA 解密 Histogram Grid —— 揪出摧毀模型的「極端值地雷」.md",
-    "MachineLearning_資料科學/EDA/EDA 特徵熱力圖 (Correlation Heatmap).md",
     "Python/Python Class 基本用法筆記.md",
     "Python/Python 基礎秘笈.md",
     "Python/Python 繼承 _ reflaction 映射 相關.md",
@@ -203,8 +206,6 @@
     "MachineLearning_資料科學/feature importances/AutoML-01  導入 AutoML (Optuna) 自動尋找最強特徵組合與勝率極值.md",
     "MachineLearning_資料科學/feature importances/AutoML-05 總結三部曲：基礎調參、巨量降維與特徵煉金的戰略差異.md",
     "Python/Python closure & late binding 陷阱.md",
-    "MachineLearning_資料科學/feature importances/別再憑感覺寫策略！用 Random Forest 與 XGBoost 萃取「特徵重要性」.md",
-    "AI/Claude/給 Claude Code 一個拉桿ccy我的 YOLO 模式開關.md",
     "AI/Claude/Claude Code CLI 基本大全.md",
     "AI/Claude/Claude Code 的 ultracode 到底是什麼.md",
     "AI/Claude/ClaudeCode 產品架構的角色分工設計.md",
@@ -217,7 +218,6 @@
     "SUMMARY.md.tmp.29160.1777439149093",
     "Rust/深入淺出",
     "AI/gemini",
-    "錄影錄音/DJI",
     "newplot (1).png",
     "Pasted image 20260326171631.png",
     "newplot.png",
