@@ -43,6 +43,45 @@
 
 **該選哪個**：Windows 桌機、想一個視窗看多台機器的 agent、想塞 git panel / markdown 面板 → App 版。純 SSH 無頭 Linux、習慣 tmux 那套 prefix 手感、不想裝 GUI → TUI 版，或者只裝 herdr-core 用 `hc` 跑、再從別台的 App 接過去。
 
+### Server 要裝什麼？本機 App 怎麼接過去？
+
+**Server 不用裝 herdr-app，只裝 herdr-core（`hc`）**。herdr-app 是 GUI 視窗，無頭機器裝了沒意義；真正讓 terminal 活著的是 herdr-core。本機的 App **透過 SSH 接到 server 的 herdr-core**，一個視窗同時看本機與遠端的 agent。
+
+```bash
+# 1. 本機先確認 ssh 能免互動登入(金鑰、或 ~/.ssh/config 設好 Host)
+ssh mint
+
+# 2. 在本機執行,它會透過 SSH 把本機這支 hc 複製到 server 並啟動 herdr-core
+hc machine add mint              # mint 是 ~/.ssh/config 的 Host,也可以 user@10.0.0.7:22
+hc machine add mint --install    # 不想被問就加 --install(腳本用)
+
+# 3. 之後 server 上的 terminal 地址多一個 machine/ 前綴
+hc run --on mint --bg --name claude "cd app && claude"
+hc attach mint/claude
+hc read  mint/claude --lines 50
+hc wait  mint/claude
+hc exec --on mint git status     # 單發指令拿輸出
+
+# 4. 本機 herdr-app 側邊欄會多出 mint 這台的區塊,
+#    在上面開的 Space 就「住在」server 上,本機 App 關掉 agent 照跑
+```
+
+這等於取代「SSH 進去 `tmux attach`」的流程（見 [[tmux + SSH 讓 claude 重新連接]]）：不用切 ssh，`hc wait` 這類腳本也能跨機器用。
+
+要點：
+
+| 項目 | 說明 |
+|---|---|
+| Server 事前準備 | **不需要**先裝任何東西。`hc machine add` 會自己把 `hc` 複製過去。只要有 SSH 和一般 Linux 環境 |
+| SSH 要免互動 | 有密碼或 2FA 的話第一次會卡，之後用 `hc machine login mint` 補登入 |
+| 版本要一致 | 本機 `hc` 升版後跑 `hc machine update mint`，它會複製新版過去並重啟 core，**terminal 不會斷** |
+| 忘掉機器 | `hc machine rm mint` 只是本機忘掉，server 上的 terminal 繼續跑 |
+| 非標準 SSH | `--via` 可以改用別的指令連，例如 `--via 'wsl.exe -d Ubuntu -e sh -c' --name wsl` 接 WSL，或 `fly ssh console …` |
+| Tailscale | Host 直接填 Tailscale IP 或 MagicDNS 名字 |
+| 暫時沙箱 | `--temp` 標記為短命機器，App 會另外顯示，用完 `hc machine rm` |
+
+> 未驗證：以上依據 `hc machine --help` 與本機 AGENTS.md，尚未實際對 Linux Mint 機器執行過 `hc machine add`。
+
 > 未驗證：兩者是否同一團隊維護、TUI 版未來會不會被 App 取代。herdr.dev 首頁目前主推 App 版，TUI 文件放在 GitHub 的版本快照裡，官方沒有明講。
 
 ---
