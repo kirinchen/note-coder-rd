@@ -22,6 +22,29 @@
 網路上大部分「tmux vs herdr」文章寫的是 **TUI 版**（`prefix+v` 分割、`prefix+q` detach 那套）。
 如果你是從 herdr.dev 下載安裝、看到的是一個有側邊欄的視窗，那你用的是 **App 版**，看本文。
 
+### TUI 版 vs App 版到底差在哪？不只是多一層 GUI
+
+它們是**兩個獨立的程式**，各有自己的 server、CLI、設定檔與快捷鍵，**彼此不共用任何狀態**。只是名字一樣、都在做「幫你管一群 AI agent 的多工器」這件事。
+
+| | herdr（TUI） | herdr-app |
+|---|---|---|
+| 跑在哪 | 終端機裡，像 tmux | 獨立桌面視窗（Rust + GPUI） |
+| 背景 daemon | `herdr server`，自己的 | **herdr-core**，是獨立專案，不開 App 也能單獨用 |
+| process 歸誰管 | 綁在 TUI 自己的 server 上 | herdr-core 管每一個 terminal（`t7`），App 只是其中一種 view |
+| CLI | `herdr session / workspace / tab / pane / agent …` | `hc run / ls / attach / send / wait …`，版面另走 `herdr-app do …` |
+| 設定 | 一份 `config.toml` | `keys.json` + `settings.json` + `layouts/` + `mods/`，存檔即生效 |
+| 快捷鍵模型 | prefix（`Ctrl+B`）兩段式 | 無 prefix，直接 chord |
+| 名詞 | session ⊃ workspace ⊃ tab ⊃ pane | space ⊃ tab ⊃ pane；terminal 是 core 的 `t7` |
+| 擴充 | 固定畫面 + sidebar | layout（JSON 排版）+ mod（JavaScript 面板：markdown viewer、git panel、board） |
+| 跨機器 | 自己 ssh 過去再開 herdr | `hc machine add vps` 後 terminal 地址變 `vps/t7`，Space 可以直接住在遠端機器 |
+| Windows | 終端機內體驗差 | 原生支援（ConPTY） |
+
+**Session 能互通嗎？不能。** 在 TUI 開的 agent，App 看不到；在 App（herdr-core）開的 terminal，TUI 也看不到。兩邊的「session」連定義都不同（TUI 的 session 是一組 workspace，App 的 session 只是 `hc` 的一個選項）。要搬，就是在另一邊重開 process，沒有匯入匯出。同一台機器兩個都裝不會打架，但也不會互相認得。
+
+**該選哪個**：Windows 桌機、想一個視窗看多台機器的 agent、想塞 git panel / markdown 面板 → App 版。純 SSH 無頭 Linux、習慣 tmux 那套 prefix 手感、不想裝 GUI → TUI 版，或者只裝 herdr-core 用 `hc` 跑、再從別台的 App 接過去。
+
+> 未驗證：兩者是否同一團隊維護、TUI 版未來會不會被 App 取代。herdr.dev 首頁目前主推 App 版，TUI 文件放在 GitHub 的版本快照裡，官方沒有明講。
+
 ---
 
 ## 🧠 名詞對照（最重要的一張表）
