@@ -3,7 +3,7 @@
 > 我在 CS 1.6 打 bot 打到膩,把 dust2 的感覺搬進 **Sven Co-op**(免費),做了一張四線守塔圖 **siege4_td**:基地在中間,怪從四條路衝進來,守住兩座金礦撐過 15 波。
 > 這篇是影片裡「教你裝」和「自己改規則」兩段的文字版,指令可以直接複製。
 
-- 🎬 影片:(上架後補)
+- 🎬 影片:<https://youtu.be/XKokul3hWXo>
 - 📦 地圖包:[GitHub Release v1.0.0-siege4-td](https://github.com/kirinchen/svencoop-skills-toolkit/releases/tag/v1.0.0-siege4-td)(`siege4_td-v1.0.0.zip`)
 - 🎮 Sven Co-op(Steam,免費):<https://store.steampowered.com/app/225840/Sven_Coop/>
 
