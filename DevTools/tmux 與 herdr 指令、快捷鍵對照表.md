@@ -427,6 +427,7 @@ JSON 寫壞了不會爆：App 保留上一份可用版本，並寫出 `keys.erro
 - `~/.config/herdr-app/AGENTS.md`：本機完整文件，Space / Tab / Pane 模型、layout、mod、keys 全在裡面
 - 官方：[herdr.dev](https://herdr.dev)、[herdrdev/herdr-app](https://github.com/herdrdev/herdr-app)、[herdrdev/herdr-core](https://github.com/herdrdev/herdr-core)
 - TUI 版（另一個產品，別混）：[herdrdev/herdr](https://github.com/herdrdev/herdr)
+- 本倉庫：[[Herdr App 圖文入門指南]]（概念、安裝、側邊欄狀態、mod 客製）、[[建議：全公司統一採用 Herdr App 作為 AI agent 工作台]]（公司導入評估，AI/）
 
 ---
 

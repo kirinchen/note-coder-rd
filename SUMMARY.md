@@ -15,6 +15,7 @@
   * [Claude Code 完整 Reset 專案狀態](AI/Claude/Claude%20Code%20完整%20Reset%20專案狀態.md)
   * [Meta-level ReAct × n8n 架構筆記](AI/Claude/Meta-level-ReAct-n8n-架構筆記.md)
   * [Multi-AI Agent 架構、雙層部署、與 plugin 治理層](AI/Multi-AI%20Agent%20架構、雙層部署、與%20plugin%20治理層.md)
+  * [建議：全公司統一採用 Herdr App 作為 AI agent 工作台](AI/建議：全公司統一採用%20Herdr%20App%20作為%20AI%20agent%20工作台.md)
   * [Spec-kit 企業級 SDD 開發指南](AI/Vibe%20Coding/Spec-kit%20企業級%20Spec-Driven%20Development%20(SDD)%20開發指南.md)
   * [萊拉 (Lyra) AI 提示詞優化助手](AI/Prompt/萊拉%20(Lyra)%20AI%20提示詞優化助手.md)
   * [整合 NotebookLM MCP 完整安裝教學](AI/tools&mcp/在%20Claude%20Code%20中整合%20NotebookLM%20MCP：完整安裝教學.md)

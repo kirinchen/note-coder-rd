@@ -20,6 +20,7 @@
 
 ## Agent 架構
 - [Multi-AI Agent 架構、雙層部署、與 plugin 治理層](Multi-AI%20Agent%20架構、雙層部署、與%20plugin%20治理層.md)
+- [建議：全公司統一採用 Herdr App 作為 AI agent 工作台](建議：全公司統一採用%20Herdr%20App%20作為%20AI%20agent%20工作台.md)（導入評估；入門看 [DevTools/Herdr App 圖文入門指南](../DevTools/Herdr%20App%20圖文入門指南.md)）
 - [Meta-level ReAct × n8n 架構筆記](Claude/Meta-level-ReAct-n8n-架構筆記.md)
 
 ## Prompt Engineering
