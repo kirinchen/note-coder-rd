@@ -80,7 +80,7 @@ hc exec --on mint git status     # 單發指令拿輸出
 | Tailscale | Host 直接填 Tailscale IP 或 MagicDNS 名字 |
 | 暫時沙箱 | `--temp` 標記為短命機器，App 會另外顯示，用完 `hc machine rm` |
 
-> 未驗證：以上依據 `hc machine --help` 與本機 AGENTS.md，尚未實際對 Linux Mint 機器執行過 `hc machine add`。
+> 2026-11-19 實測：Windows 11 → Linux Mint（Tailscale 100.x），`hc machine add kirin@100.114.93.81 --name back --install` 一次成功。它自動把 `hc` 複製到 Mint、裝成 systemd user service（`enabled`）並開 `loginctl enable-linger`，所以 ssh 登出後 terminal 照跑。前提是 SSH 已免密碼，否則會卡在互動，見 [[herdr-app 加 machine 失敗 - it needs you to answer something]]。
 
 > 未驗證：兩者是否同一團隊維護、TUI 版未來會不會被 App 取代。herdr.dev 首頁目前主推 App 版，TUI 文件放在 GitHub 的版本快照裡，官方沒有明講。
 

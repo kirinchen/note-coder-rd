@@ -99,6 +99,17 @@ hc attach mint/claude                  # Ctrl+\ 離開
 
 herdr-app 側邊欄會自動多出 `mint` 區塊，之後在上面開 Space 就住在 server 上。
 
+### 實測結果（2026-11-19）
+
+Step 0 一開始噴 `Host key verification failed.`，做完 Step 1 變成 `Permission denied (publickey,password).`，做完 Step 3 印 `SSH_OK`。接著 Step 4 一次成功，回傳 JSON 裡幾個值得看的欄位：
+
+```json
+{"name":"back","host":"kirin-desktop","version":"0.1.21",
+ "keeps_running_after_logout":true,"logout_linger_user":"kirin"}
+```
+
+`keeps_running_after_logout: true` 代表它在 server 上把 herdr-core 裝成 systemd **user** service 並開了 `loginctl enable-linger`，所以 ssh 斷線、登出後 terminal 都還活著，等同 tmux 的效果但不用自己設。`hc machine ls` 的 `state` 幾秒內從 `connecting` 變 `connected`。
+
 ---
 
 ## ⚡ 懶人版：四行搞定（第三行會問一次密碼）
