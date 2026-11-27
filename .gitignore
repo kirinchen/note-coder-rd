@@ -1,2 +1,5 @@
 /.specstory
 /.claude
+
+# 外掛的本機設定(含 API key / 憑證私鑰),不進 repo
+.obsidian/plugins/*/data.json
